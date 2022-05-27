@@ -1584,7 +1584,7 @@ footer .top {
   margin: 6% 0% 17% 0%;
 }
 
-.containerIS .form-I-S h2 {
+.containerIS .formIS h2 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.6em;
@@ -1594,7 +1594,7 @@ footer .top {
   padding: 24px 0px;
 }
 
-.containerIS .form-I-S .info-I-S {
+.containerIS .formIS .info-I-S {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.3em;
@@ -1603,7 +1603,7 @@ footer .top {
   padding: 24px 0px;
 }
 
-.containerIS .form-I-S .form-control-IS {
+.containerIS .formIS .form-control-IS {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.1em;
@@ -1613,7 +1613,7 @@ footer .top {
   display: inline;
 }
 
-.containerIS .form-I-S .form-control-IS label {
+.containerIS .formIS .form-control-IS label {
   margin: 1% 18%;
   display: inline-block;
   -webkit-box-align: center;
@@ -1623,7 +1623,7 @@ footer .top {
       align-content: center;
 }
 
-.containerIS .form-I-S .form-control-IS label input {
+.containerIS .formIS .form-control-IS label input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   display: block;
@@ -1634,43 +1634,31 @@ footer .top {
   margin-top: 10px;
 }
 
-.containerIS .form-I-S .form-control-IS label input:focus {
+.containerIS .formIS .form-control-IS label input:focus {
   outline: 0;
   border-color: #95cf84;
 }
 
-.containerIS .form-I-S .success input {
+.containerIS .formIS label.success input {
   border-color: #00c854;
 }
 
-.containerIS .form-I-S i.success {
-  color: #00c854;
-  /* visibility: hidden; */
-  display: none;
-}
-
-.containerIS .form-I-S .error input {
+.containerIS .formIS label.error input {
   border-color: #ff6b5b;
 }
 
-.containerIS .form-I-S i.error {
-  color: #ff6b5b;
-  /* visibility: hidden; */
-  display: none;
-}
-
-.containerIS .form-I-S small {
+.containerIS .formIS small {
   visibility: hidden;
   color: #ff6b5b;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 16px;
 }
 
-.containerIS .form-I-S small.error {
+.containerIS .formIS small.error {
   visibility: visible;
 }
 
-.containerIS .submit-I-S {
+.containerIS .formIS .submit-I-S {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   background-color: var(--beige);
@@ -1685,14 +1673,8 @@ footer .top {
   text-align: center;
 }
 
-.containerIS .submit-I-S:hover {
+.containerIS .formIS .submit-I-S:hover {
   background-color: var(--beige1);
-  color: var(--black);
-}
-
-.containerIS .submit-I-S a,
-.containerIS .submit-I-S a:visited {
-  text-decoration: none;
   color: var(--black);
 }
 
@@ -1701,7 +1683,7 @@ footer .top {
   color: var(--black);
   font-size: 1em;
   text-align: center;
-  margin: -6% 14% 11% 7%;
+  margin: -6% 14% 11% 15%;
   border-top: 1px solid var(--black);
 }
 
@@ -1718,7 +1700,7 @@ footer .top {
   font-size: 1em;
   font-weight: 600;
   width: 44%;
-  margin: 2% 0% 6% 24%;
+  margin: 2% 0% 6% 28%;
   padding: 7px 0px;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 10px 0px var(--black-light-version);
@@ -1870,7 +1852,7 @@ footer .top {
   margin: 0% 0% 10% 0%;
 }
 
-.form-R-8 {
+.container-R-8 .form-R-8 {
   border-top: 3px solid black;
   background-color: var(--beige);
   padding: 2% 0 2% 10%;
@@ -1879,7 +1861,7 @@ footer .top {
   margin: 4% 0% -111% 0%;
 }
 
-.form-R-8 h2 {
+.container-R-8 .form-R-8 h2 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-weight: bolder;
@@ -1889,7 +1871,7 @@ footer .top {
   padding: 24px 0px;
 }
 
-.form-R-8 .info-R-8 {
+.container-R-8 .form-R-8 .infoClient8 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.3em;
@@ -1898,7 +1880,7 @@ footer .top {
   padding: 24px 0px;
 }
 
-.form-R-8 .infoClient8 {
+.container-R-8 .form-R-8 .form-control-R-8 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.1em;
@@ -1908,12 +1890,52 @@ footer .top {
   display: inline;
 }
 
-.form-R-8 .infoClient8 .infoDelCliente8 {
-  margin: -14% 24% 9% 13%;
-  padding: 24px 0px;
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 {
+  margin: 1% 18%;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-.form-R-8 .novedades8 h3 {
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.container-R-8 .form-R-8 label.success input {
+  border-color: #00c854;
+}
+
+.container-R-8 .form-R-8 label.error input {
+  border-color: #ff6b5b;
+}
+
+.container-R-8 .form-R-8 small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.container-R-8 .form-R-8 small.error {
+  visibility: visible;
+}
+
+.container-R-8 .form-R-8 .novedades8 h3 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-weight: 600;
@@ -1922,14 +1944,14 @@ footer .top {
   margin: 0% 19% 4% 13%;
 }
 
-.form-R-8 .novedades8 .answer8 {
+.container-R-8 .form-R-8 .novedades8 .answer8 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1em;
   margin: 0% 11% 8% 1%;
 }
 
-.form-R-8 .novedades8 .submit8 {
+.container-R-8 .form-R-8 .submit8 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   background-color: var(--beige);
@@ -1944,13 +1966,13 @@ footer .top {
   text-align: center;
 }
 
-.form-R-8 .novedades8 .submit8:hover {
+.container-R-8 .form-R-8 .submit8:hover {
   background-color: var(--beige1);
   color: var(--black);
 }
 
-.form-R-8 .novedades8 .submit8 a,
-.form-R-8 .novedades8 .submit8 a:visited {
+.container-R-8 .form-R-8 .submit8 a,
+.container-R-8 .form-R-8 .submit8 a:visited {
   text-decoration: none;
   color: var(--black);
 }

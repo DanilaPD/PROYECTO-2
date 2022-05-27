@@ -1,3 +1,6 @@
+//! Cart + Local Storage:
+//* 14. Cart:
+
 var cartId = "cart";
  
 var localAdapter = {
