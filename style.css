@@ -1,7 +1,20 @@
 @charset "UTF-8";
-/* Font: */
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
 /* Reset: */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +22,7 @@
   overflow-x: hidden;
 }
 
+/* Font: */
 /* Variables: */
 :root {
   --black: #05070d;
@@ -23,6 +37,28 @@
 }
 
 /* 1. Main: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 /* Logo: */
 .logo {
   margin: 33% 0% 48% 25%;
@@ -243,6 +279,28 @@ footer .top {
 }
 
 /* 2. Nuestra misión: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoMission a {
   text-decoration: none;
 }
@@ -395,6 +453,28 @@ footer .top {
 }
 
 /* 3. Nuestros clientes: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoClients2 .logoCompleto2 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -539,6 +619,28 @@ footer .top {
 }
 
 /*  4. Contacto: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoContactUs3 .logoCompleto3 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -959,6 +1061,28 @@ footer .top {
 }
 
 /* 5. Tops: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoTops .logoCompleto4 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -1165,6 +1289,28 @@ footer .top {
 }
 
 /* 6. Calzas: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoCalzas .logoCompleto5 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -1372,6 +1518,28 @@ footer .top {
 }
 
 /* 7. Todos los productos: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoTodos .logoCompleto6 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -1690,6 +1858,28 @@ footer .top {
 }
 
 /* 8. Iniciar sesión */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoInicioDeSesion .logoCompleto7 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -1968,6 +2158,28 @@ footer .top {
 }
 
 /* 9. Registrate */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoRegistrate .logoCompleto8 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -2241,6 +2453,28 @@ footer .top {
 }
 
 /* 10. Respuesta para el form de "Contact Us": */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoRespuesta .logoCompleto10 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -2378,6 +2612,28 @@ footer .top {
 }
 
 /* 11. Password: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoPassword .logoCompleto11 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -2562,6 +2818,28 @@ footer .top {
 }
 
 /* 12. Bienvenido: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoBienvenido .logoCompleto12 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -2706,6 +2984,28 @@ footer .top {
 }
 
 /* 13. Respuesta para el form de "Password": */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoRespuestaPassword .logoCompleto13 {
   width: 44%;
   margin: 25% 4% 2% 29%;
@@ -2840,6 +3140,28 @@ footer .top {
 }
 
 /* 14. Cart: */
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Font: */
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --dark-grey: #333;
+  --g: rgb(122, 122, 122);
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f5dfae;
+  --beige2: #fff2d1;
+}
+
 .logoCarrito .logoCompleto14 {
   width: 44%;
   margin: 25% 4% 2% 29%;
