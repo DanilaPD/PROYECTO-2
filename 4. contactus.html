@@ -91,77 +91,111 @@
 
         <img class="contactUs3" src="./Assets/SELECCION TOPtax/prueba-top-2.jpg" alt="">
 
-        <form class="contact" action="/" method="post">
-            <h2>Contacto:</h2>
+        <div class="container-4">
+            <form action="" id="formContact" class="contact">
+                <h2>Contacto:</h2>
 
-            <h3>Si deseás hacernos alguna consulta, podés hacerlo por este medio:</h3>
+                <h3>Si deseás hacernos alguna consulta, podés hacerlo por este medio:</h3>
 
-            <div class="infoClient">
-                <label class="infoDelCliente">Nombre:
-                    <input type="text" name="name" maxlength="30" required>
-                </label>
+                <div class="infoClient">
 
-                <label class="infoDelCliente">Apellido:
-                    <input type="text" name="surname" maxlength="30" required>
-                </label>
+                    <div class="form-control-4">
+                        <label class="infoDelCliente">Nombre:
+                            <input type="text" name="" id="username" placeholder="Todd">
+                            <span class="success"></span>
+                            <span class="error"></span>
+                            <small></small>
+                        </label>
+                    </div>
 
-                <label class="infoDelCliente">Número de teléfono:
-                    <input type="text" name="cellphone" maxlength="15" required>
-                </label>
+                    <div class="form-control-4">
+                        <label class="infoDelCliente">Apellido:
+                            <input type="text" name="" id="surname" placeholder="Flanders">
+                            <span class="success"></span>
+                            <span class="error"></span>
+                            <small></small>
+                        </label>
+                    </div>
 
-                <label class="infoDelCliente">Email:
-                    <input type="email" name="email" maxlength="30" placeholder="maxpower@gmail.com" required>
-                </label>
+                    <div class="form-control-4">
+                        <label class="infoDelCliente">Email:
+                            <input type="email" name="" id="email" placeholder="toddflanders@gmail.com">
+                            <span class="success"></span>
+                            <span class="error"></span>
+                            <small></small>
+                        </label>
+                    </div>
 
-                <label class="infoDelCliente">Asunto:
-                    <input type="text" maxlength="30" required>
-                </label>
-            </div>
+                    <div class="form-control-4">
+                        <label class="infoDelCliente">Asunto:
+                            <input type="text" id="asunto">
+                            <span class="success"></span>
+                            <span class="error"></span>
+                            <small></small>
+                        </label>
+                    </div>
+                </div>
 
-            <div class="typeDeConsulta">
-                <h3>Tipo de consulta:</h3>
+                <div class="typeDeConsulta">
+                    <h3>Tipo de consulta:</h3>
 
-                <label class="tipoDeC">
-                    <select name="tipoDeConsulta1">
+                    <div class="form-control-4">
+                        <label class="tipoDeC">
+                            <select name="tipoDeConsulta1" id="tipoDeConsulta1">
 
-                        <option class="type" value="ventaMinorista" selected>Venta Minorista</option>
+                                <option class="type" value="ventaMinorista" selected>Venta Minorista</option>
 
-                        <option class="type" value="ventaMayorista">Venta Mayorista</option>
+                                <option class="type" value="ventaMayorista">Venta Mayorista</option>
 
-                        <option class="type" value="presupuesto">Pedido de Presupuesto</option>
+                                <option class="type" value="presupuesto">Pedido de Presupuesto</option>
 
-                        <option class="type" value="regalos">Regalos Empresariales</option>
+                                <option class="type" value="regalos">Regalos Empresariales</option>
 
-                        <option class="type" value="revendedor">Quiero ser un Revendedor Onky</option>
+                                <option class="type" value="revendedor">Quiero ser un Revendedor Onky</option>
 
-                        <option class="type" value="sugerencia">Sugerencias</option>
+                                <option class="type" value="sugerencia">Sugerencias</option>
 
-                        <option class="type" value="otroTipo">Otro tipo de consulta</option>
-                    </select>
-                </label>
-            </div>
+                                <option class="type" value="otroTipo">Otro tipo de consulta</option>
 
-            <label class="mensaje">Mensaje:
-                <textarea name="comentario" class="comentarioTextArea" cols="30" rows="10"></textarea>
-            </label>
+                            </select>
 
-            <div class="novedades">
-                <h3>¿Querés recibir más info sobre las últimas novedades y ofertas?</h3>
+                            <span class="success"></span>
+                            <span class="error"></span>
+                            <small></small>
+                        </label>
+                    </div>
+                </div>
 
-                <label class="answer">
-                    <input type="radio" value="1" checked>Sí, siempre
-                </label>
+                <div class="form-control-4">
+                    <label class="mensaje">Mensaje:
+                        <textarea name="" id="comentarioTextArea" class="comentarioTextArea" cols="30"
+                            rows="10"></textarea>
+                        <span class="success"></span>
+                        <span class="error"></span>
+                        <small></small>
+                    </label>
+                </div>
 
-                <label class="answer">
-                    <input type="radio" value="2">No, gracias
-                </label>
-            </div>
+                <div class="novedades">
+                    <h3>¿Querés recibir más info sobre las últimas novedades y ofertas?</h3>
 
+                    <label class="answer">
+                        <input type="radio" value="1" checked>Sí, siempre
+                    </label>
+
+                    <label class="answer">
+                        <input type="radio" value="2">No, gracias
+                    </label>
+                </div>
+
+                <button class="submit">Enviar</button>
+                <!-- 
             <button class="submit">
                 <a href="./10. respuesta-contactus.html">Enviar</a>
-            </button>
+            </button> -->
 
-        </form>
+            </form>
+        </div>
 
         <p class="p3">
             ¡Gracias por tu consulta!
@@ -215,7 +249,7 @@
             </a>
             <h3 class="copyright3">ONKY - Copyright 2022</h3>
         </div>
-        
+
         <div class="top">
             <a href="#top" class="toTheTop">
                 <img src="Assets/Logo-Naranja.png" alt="topOfThePage">
@@ -228,7 +262,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-<!-- <script src="./index.js"></script> -->
+    <script src="./index4.js"></script>
 
 </body>
 

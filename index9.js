@@ -5,31 +5,24 @@ const formR8 = document.getElementById("formR8");
 const username = document.getElementById("username");
 const surname = document.getElementById("surname");
 const email = document.getElementById("email");
-const cellphone = document.getElementById("cellphone");
 const password1 = document.getElementById("pass1");
 const password2 = document.getElementById("pass2");
-const yesNo = document.getElementById("yesNo");
-
 
 formR8.addEventListener("submit", (e) => {
   e.preventDefault();
   validate();
 });
 
-  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
+const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
 
-  const cellphoneRegex = /^\\(?(\d{3,5})?\\)?\s?(15)?[\s|-]?(4)\d{2,3}[\s|-]?\d{4}$/;
+const passRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
 
-  const passRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
-
-  const validate = () => {
+const validate = () => {
   const user = username.value.trim();
   const userssurname = surname.value.trim();
   const mail = email.value.trim();
-  const phone = cellphone.value.trim();
   const pass1 = password1.value.trim();
   const pass2 = password2.value.trim();
-  const yn = yesNo.value.trim();
 
   if (user === "") {
     let errorMessage = "Esta casilla no puede estar vacía";
@@ -40,6 +33,7 @@ formR8.addEventListener("submit", (e) => {
     inputError(username, errorMessage);
   } else {
     inputSuccess(username);
+    window.location.href = "./12. bienvenido.html";
   }
 
   if (userssurname === "") {
@@ -51,6 +45,7 @@ formR8.addEventListener("submit", (e) => {
     inputError(surname, errorMessage);
   } else {
     inputSuccess(surname);
+    window.location.href = "./12. bienvenido.html";
   }
 
   if (mail === "") {
@@ -61,16 +56,7 @@ formR8.addEventListener("submit", (e) => {
     inputError(email, errorMessage);
   } else {
     inputSuccess(email);
-  }
-
-  if (phone === "") {
-    let errorMessage = "Esta casilla no puede estar vacía";
-    inputError(cellphone, errorMessage);
-  } else if (!cellphoneRegex.test(phone)) {
-    let errorMessage = "El teléfono no es válido";
-    inputError(cellphone, errorMessage);
-  } else {
-    inputSuccess(cellphone);
+    window.location.href = "./12. bienvenido.html";
   }
 
   if (pass1 === "") {
@@ -82,6 +68,7 @@ formR8.addEventListener("submit", (e) => {
     inputError(password1, errorMessage);
   } else {
     inputSuccess(password1);
+    window.location.href = "./12. bienvenido.html";
   }
 
   if (pass2 === "") {
@@ -92,15 +79,8 @@ formR8.addEventListener("submit", (e) => {
     inputError(password2, errorMessage);
   } else {
     inputSuccess(password2);
+    window.location.href = "./12. bienvenido.html";
   }
-
-  if (yn === "") {
-    let errorMessage = "Esta casilla no puede estar vacía";
-    inputError(yesNo, errorMessage);
-  } else {
-    inputSuccess(yesNo);
-  }
-
 };
 
 
