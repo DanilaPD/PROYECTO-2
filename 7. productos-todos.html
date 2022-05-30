@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
-    description="Bienvenidos a ONKY, precursores del buen vestir. Te brindamos prendas personalizadas, cancheras y de una excelentísima calidad por un módico precio. Sumate a la ONKYNETA." />
-<meta author="Danila Pérez Díaz" />
-<meta keywords="calzas, tops de gimnasia, conjuntitos deportivos, shorts, remeras y mucho más." />
+        description="Bienvenidos a ONKY, precursores del buen vestir. Te brindamos prendas personalizadas, cancheras y de una excelentísima calidad por un módico precio. Sumate a la ONKYNETA." />
+    <meta author="Danila Pérez Díaz" />
+    <meta keywords="calzas, tops de gimnasia, conjuntitos deportivos, shorts, remeras y mucho más." />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -76,8 +76,8 @@
             </nav>
         </div>
     </header>
-        
-        <main id="top">
+
+    <main id="top">
         <div class="logoTodos">
             <a href="./1. main.html">
                 <img src="./Assets/logo-entero.png" alt="accesoAinicio-1-F" class="logoCompleto6">
@@ -153,53 +153,76 @@
                     </div>
             </section>
 
-            <section class="fotosProductos">
-                <div class="calzas1">
-                    <h3>Calzas</h3>
-                    <img class="calzas" src="./Assets/Editadas gris/DSC_2016.jpg" class="d-block w-100" alt="" />
-                    <img class="calzas" src="./Assets/DSC_2147.JPG" class="d-block w-100" alt="" />
-                </div>
+            <!-- //* Filtrando productos por categoría //* -->
+            <div class="contenedorFiltrado" id="contenedorFiltrado">
+                <input type="radio" name="filtro" id="calzas">
+                <label for="calzas">Calzas</label>
 
-                <div class="tops2">
-                    <h3>Tops de gimnasia</h3>
-                    <img class="tops" src="./Assets/37. Captura.PNG" class="d-block w-100" alt="" />
-                    <img class="tops" src="./Assets/38. Captura.PNG" class="d-block w-100" alt="" />
-                </div>
+                <input type="radio" name="filtro" id="tops">
+                <label for="tops">Tops</label>
 
-                <div class="conjuntos3">
-                    <h3>Conjuntos de gimnasia</h3>
-                    <img class="conjuntos" src="./Assets/SELECCION BIKER geo/DSC_1907.JPG" class="d-block w-100"
-                        alt="" />
-                    <img class="conjuntos" src="./Assets/SELECCION SHORTtax/DSC_1947.JPG" class="d-block w-100"
-                        alt="" />
-                </div>
+                <input type="radio" name="filtro" id="conjuntos">
+                <label for="conjuntos">Conjuntos</label>
 
-                <div class="cuellitos4">
-                    <h3>Cuellitos multifunción</h3>
-                    <img class="cuellitos" src="./Assets/Buenas/8777B318-3F0D-4BAF-AFD9-5F3FE19EE787.JPG"
-                        class="d-block w-100" alt="" />
-                    <img class="cuellitos" src="./Assets/Buenas/ACF0AB17-2669-4B21-9CCA-197B79219154.JPG"
-                        class="d-block w-100" alt="" />
-                </div>
+                <input type="radio" name="filtro" id="cuellitos">
+                <label for="cuellitos">Cuellitos</label>
 
-                <div class="gorras5">
-                    <h3>Gorras</h3>
-                    <img class="gorras" src="./Assets/26. Captura.PNG" class="d-block w-100" alt="" />
-                    <img class="gorras" src="./Assets/Editar g/IMG-20180213-WA0017.jpg" class="d-block w-100" alt="" />
-                </div>
+                <input type="radio" name="filtro" id="gorras">
+                <label for="gorras">Gorras</label>
 
-                <div class="remerasPersonalizadas6">
-                    <h3>Remeras personalizadas</h3>
-                    <img class="remerasPersonalizadas" src="./Assets/29. Captura.PNG" class="d-block w-100" alt="" />
-                    <img class="remerasPersonalizadas" src="./Assets/28. Captura.PNG" class="d-block w-100" alt="" />
-                </div>
+                <input type="radio" name="filtro" id="remerasPersonalizadas">
+                <label for="remerasPersonalizadas">Remeras personalizadas</label>
 
-                <div class="remerasDeportivas7">
-                    <h3>Remeras deportivas</h3>
-                    <img class="remerasDeportivas" src="./Assets/15. Captura.PNG" class="d-block w-100" alt="" />
-                    <img class="remerasDeportivas" src="./Assets/16. Captura.PNG" class="d-block w-100" alt="" />
-                </div>
-            </section>
+                <input type="radio" name="filtro" id="remerasDeportivas">
+                <label for="remerasDeportivas">Remeras deportivas</label>
+
+                <input type="radio" name="filtro" id="todos"><label for="todos">Todos</label>
+
+                <figure class="fotosProductos" id="imagenes">
+                    <div class="calzas1">
+                        <img class="calzas" src="./Assets/Editadas gris/DSC_2016.jpg" class="d-block w-100" alt="" />
+                        <img class="calzas" src="./Assets/DSC_2147.JPG" class="d-block w-100" alt="" />
+                    </div>
+
+                    <div class="tops2">
+                        <img class="tops" src="./Assets/37. Captura.PNG" class="d-block w-100" alt="" />
+                        <img class="tops" src="./Assets/38. Captura.PNG" class="d-block w-100" alt="" />
+                    </div>
+
+                    <div class="conjuntos3">
+                        <img class="conjuntos" src="./Assets/SELECCION BIKER geo/DSC_1907.JPG" class="d-block w-100"
+                            alt="" />
+                        <img class="conjuntos" src="./Assets/SELECCION SHORTtax/DSC_1947.JPG" class="d-block w-100"
+                            alt="" />
+                    </div>
+
+                    <div class="cuellitos4">
+                        <img class="cuellitos" src="./Assets/Buenas/8777B318-3F0D-4BAF-AFD9-5F3FE19EE787.JPG"
+                            class="d-block w-100" alt="" />
+                        <img class="cuellitos" src="./Assets/Buenas/ACF0AB17-2669-4B21-9CCA-197B79219154.JPG"
+                            class="d-block w-100" alt="" />
+                    </div>
+
+                    <div class="gorras5">
+                        <img class="gorras" src="./Assets/26. Captura.PNG" class="d-block w-100" alt="" />
+                        <img class="gorras" src="./Assets/Editar g/IMG-20180213-WA0017.jpg" class="d-block w-100"
+                            alt="" />
+                    </div>
+
+                    <div class="remerasPersonalizadas6">
+                        <img class="remerasPersonalizadas" src="./Assets/29. Captura.PNG" class="d-block w-100"
+                            alt="" />
+                        <img class="remerasPersonalizadas" src="./Assets/28. Captura.PNG" class="d-block w-100"
+                            alt="" />
+                    </div>
+
+                    <div class="remerasDeportivas7">
+                        <img class="remerasDeportivas" src="./Assets/15. Captura.PNG" class="d-block w-100" alt="" />
+                        <img class="remerasDeportivas" src="./Assets/16. Captura.PNG" class="d-block w-100" alt="" />
+                    </div>
+                </figure>
+
+            </div>
 
             <section class="ultimaParte">
                 <h3 class="c6">¡Gracias a nuestros clientes por confiar en nuestro equipo!</h3>
