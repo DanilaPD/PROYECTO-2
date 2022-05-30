@@ -2223,14 +2223,14 @@ footer .top {
   border-radius: 3px;
 }
 
-figure#filtro {
+figure #filtro {
   margin: 0 0 15px;
   padding: 0;
   text-align: center;
   letter-spacing: 10px;
 }
 
-figure#filtro img {
+figure #filtro img {
   width: 0px;
   margin: 10px 0 0 0;
   border-radius: 5px;
@@ -2241,84 +2241,84 @@ figure#filtro img {
   transition: 1s;
 }
 
-input#calzas:checked ~ figure img.calzas {
+.inputFiltrado#calzas:checked ~ figure img.calzas {
   width: 250px;
 }
 
-input#calzas:checked ~ figure img:not(.calzas) {
+.inputFiltrado#calzas:checked ~ figure img:not(.calzas) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#tops:checked ~ figure img.tops {
+.inputFiltrado#tops:checked ~ figure img.tops {
   width: 250px;
 }
 
-input#tops:checked ~ figure img:not(.tops) {
+.inputFiltrado#tops:checked ~ figure img:not(.tops) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#conjuntos:checked ~ figure img.conjuntos {
+.inputFiltrado#conjuntos:checked ~ figure img.conjuntos {
   width: 250px;
 }
 
-input#conjuntos:checked ~ figure img:not(.conjuntos) {
+.inputFiltrado#conjuntos:checked ~ figure img:not(.conjuntos) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#cuellitos:checked ~ figure img.cuellitos {
+.inputFiltrado#cuellitos:checked ~ figure img.cuellitos {
   width: 250px;
 }
 
-input#cuellitos:checked ~ figure img:not(.cuellitos) {
+.inputFiltrado#cuellitos:checked ~ figure img:not(.cuellitos) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#gorras:checked ~ figure img.gorras {
+.inputFiltrado#gorras:checked ~ figure img.gorras {
   width: 250px;
 }
 
-input#gorras:checked ~ figure img:not(.gorras) {
+.inputFiltrado#gorras:checked ~ figure img:not(.gorras) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#remerasPersonalizadas:checked ~ figure img.remerasPersonalizadas {
+.inputFiltrado#remerasPersonalizadas:checked ~ figure img.remerasPersonalizadas {
   width: 250px;
 }
 
-input#remerasPersonalizadas:checked ~ figure img:not(.remerasPersonalizadas) {
+.inputFiltrado#remerasPersonalizadas:checked ~ figure img:not(.remerasPersonalizadas) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#remerasDeportivas:checked ~ figure img.remerasDeportivas {
+.inputFiltrado#remerasDeportivas:checked ~ figure img.remerasDeportivas {
   width: 250px;
 }
 
-input#remerasDeportivas:checked ~ figure img:not(.remerasDeportivas) {
+.inputFiltrado#remerasDeportivas:checked ~ figure img:not(.remerasDeportivas) {
   opacity: 0;
   position: absolute;
   top: 0;
   left: 50%;
 }
 
-input#todos:checked ~ figure img {
+.inputFiltrado#todos:checked ~ figure img {
   width: 160px;
   display: inline-block;
   margin: 15px 0 0 0;
@@ -2327,11 +2327,11 @@ input#todos:checked ~ figure img {
           box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.45);
 }
 
-input[type=radio] {
+.inputFiltrado[type=radio] {
   display: none;
 }
 
-label {
+.labelFiltrado {
   position: relative;
   padding: .5rem;
   border-radius: 3px;
@@ -2343,7 +2343,7 @@ label {
   background: #eee;
 }
 
-label:hover {
+.labelFiltrado:hover {
   cursor: pointer;
   background: #e5e5e5;
   color: tomato;
@@ -2351,7 +2351,7 @@ label:hover {
   transition: .4s;
 }
 
-input#x + label {
+.inputFiltrado#x + .labelFiltrado {
   padding: 5px;
   border-radius: 50%;
   background: #eee;
@@ -2361,14 +2361,14 @@ input#x + label {
           box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
 }
 
-input#x + label:hover, input#x:checked + label {
+.inputFiltrado#x + .labelFiltrado:hover, .inputFiltrado#x:checked + .labelFiltrado {
   background: tomato;
   color: #fff;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
-input:checked + label {
+.inputFiltrado:checked + .labelFiltrado {
   background: rgba(0, 0, 0, 0.25);
   text-shadow: 0 0 1px #222222;
   color: #fff;
@@ -3957,13 +3957,13 @@ footer .top {
   .containerPassword .passwordForm .p11 {
     margin: 4% 19% 6% 8%;
   }
-  .containerPassword .correoPassword {
+  .containerPassword .passwordForm .correoPassword {
     margin: -8% 5% 0% 6%;
   }
-  .containerPassword .correoPassword .correoPassword11 {
-    margin: 1% 24%;
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 1% 18%;
   }
-  .containerPassword .submit-Password {
+  .containerPassword .passwordForm .submit-Password {
     margin: 4% 18% 13% 29%;
   }
   footer {
@@ -3990,7 +3990,7 @@ footer .top {
     font-size: 1.5em;
   }
   .containerPassword .passwordForm .correoPassword .correoPassword11 {
-    margin: 1% 27%;
+    margin: 1% 21%;
     font-size: 1.3em;
   }
   .containerPassword .passwordForm .submit-Password {
