@@ -377,6 +377,39 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  main .portada .portadaImg {
+    margin: 6% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 233px 26px;
+  }
+  main .portada .login h3 {
+    margin: 1% 30% 1% 1%;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 100vh;
+    width: 50%;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 100vh;
+    padding: 21px 318px;
+  }
+  main .imagenDeInstagram .subtitle {
+    margin: 6% 0% 3% 0%;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 40px;
+    padding: 1px 146px;
+  }
+  footer .famousIcons {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 2. Nuestra misión: */
 /* Reset: */
 * {
@@ -606,6 +639,29 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoMission a .logoCompleto1 {
+    margin: 12% 4% 2% 29%;
+  }
+  .title1-B {
+    margin: 4% 28% -2% 29%;
+  }
+  .p1 p {
+    font-size: 1.5em;
+    margin: 6% 0%;
+  }
+  main .ourMissionImg {
+    width: 30%;
+    margin: -11% 36% 12% 36%;
+  }
+  footer .famousIcons1 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky1 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -839,6 +895,22 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoClients2 .logoCompleto2 {
+    margin: 12% 4% 2% 29%;
+  }
+  .iFrameInstagram {
+    margin: -8% 4% 11% 4%;
+    padding: 0% 15%;
+  }
+  footer .famousIcons2 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky2 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -1413,6 +1485,60 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoContactUs3 .logoCompleto3 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs3 {
+    width: 45%;
+    margin: 1% 28%;
+  }
+  .container-4 .contact h2 {
+    font-size: 2em;
+    margin: 4% -5%;
+  }
+  .container-4 .contact h3 {
+    margin: -3% 21% 5% 10%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 1.4em;
+    margin: 3% 11%;
+    width: 68%;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    font-size: 1.6em;
+    margin: -2% 35% -11% 26%;
+  }
+  .container-4 .contact .mensaje {
+    font-size: 1.6em;
+  }
+  .container-4 .contact .mensaje .comentarioTextArea {
+    height: 60vh;
+  }
+  .container-4 .contact .novedades h3 {
+    margin: -3% 0% 3% -6%;
+  }
+  .container-4 .contact .novedades .answer {
+    margin: -2% -22% 2% 29%;
+  }
+  .container-4 .contact .submit {
+    width: 21%;
+    margin: 3% 33%;
+  }
+  .p3 {
+    margin: -4% 29% 1% 28%;
+  }
+  .p3-b {
+    margin: 1% 20% 7% 20%;
+  }
+  footer .famousIcons3 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky3 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 5. Tops: */
 /* Reset: */
 * {
@@ -1737,6 +1863,36 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoTops .logoCompleto4 {
+    margin: 12% 4% 2% 29%;
+  }
+  .portadaTops img {
+    width: 57%;
+    margin: 1% 22%;
+  }
+  .productosTops h3 {
+    margin: 12% 18% 2% 19%;
+  }
+  .productosTops img {
+    height: 52vh;
+    width: 31%;
+    margin: 3% 9%;
+  }
+  .productosTops img:last-child {
+    margin: 3% 34%;
+  }
+  .carousel5 .carousel img {
+    padding: 1px 266px;
+  }
+  footer .famousIcons4 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky4 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -2068,6 +2224,39 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoCalzas .logoCompleto5 {
+    margin: 12% 4% 2% 29%;
+  }
+  .portadaCalzas img {
+    width: 57%;
+    margin: 1% 22%;
+  }
+  .productosCalzas h3 {
+    margin: 12% 18% 2% 19%;
+  }
+  .productosCalzas img {
+    height: 68vh;
+    width: 31%;
+    margin: 3% 9%;
+  }
+  .productosCalzas img:last-child {
+    margin: 3% 34%;
+  }
+  .carousel6 .carousel img {
+    padding: 1px 266px;
+  }
+  .compraCalzas .compraCalzas1 {
+    margin: 5% 1%;
+  }
+  footer .famousIcons5 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky5 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -2708,6 +2897,35 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoTodos .logoCompleto6 {
+    margin: 12% 4% 2% 29%;
+  }
+  .productosTodos .portada6 {
+    height: 68vh;
+    width: 33%;
+    margin: 1% 28% 7% 34%;
+  }
+  .productosTodos h3 {
+    margin: 1% 18% -3% 19%;
+  }
+  .productosTodos .todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+    padding: 60px 346px;
+  }
+  #contenedorFiltrado {
+    margin: 1rem 15rem;
+  }
+  .compraTodos .compraTodos6 {
+    margin: 5% 1%;
+  }
+  footer .famousIcons6 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky6 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 8. Iniciar sesión */
 /* Reset: */
 * {
@@ -3104,6 +3322,45 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoInicioDeSesion .logoCompleto7 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs7 {
+    height: 90vh;
+    width: 60%;
+    margin: 1% 20%;
+  }
+  .containerIS .formIS h2 {
+    margin: 4% 31% 9% 20%;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 10% 1% -1%;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 2% 30%;
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 31%;
+    font-size: 1.5em;
+  }
+  .passwordP {
+    margin: -5% 17% 10% 16%;
+  }
+  .botonesI-S button {
+    width: 23%;
+    font-size: 1.5em;
+    margin: 2% 0% 5% 38%;
+  }
+  footer .famousIcons7 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky7 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 9. Registrate */
 /* Reset: */
 * {
@@ -3477,6 +3734,25 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoRegistrate .logoCompleto8 {
+    margin: 12% 4% 2% 29%;
+  }
+  .contactUs8 {
+    width: 60%;
+    margin: 1% 21%;
+  }
+  .p8 {
+    margin: -8% 20% 4% 23%;
+  }
+  footer .famousIcons8 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky8 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 10. Respuesta para el form de "Contact Us": */
 /* Reset: */
 * {
@@ -3699,6 +3975,22 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoRespuesta .logoCompleto10 {
+    margin: 12% 4% 2% 29%;
+  }
+  .respuestaImg {
+    width: 30%;
+    margin: 5% 35%;
+  }
+  footer .famousIcons10 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky10 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -4031,6 +4323,34 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoPassword .logoCompleto11 {
+    margin: 12% 4% 2% 29%;
+  }
+  .containerPassword .passwordForm .title11-B {
+    margin: 5% 0% 0% -4%;
+  }
+  .containerPassword .passwordForm .p11 {
+    margin: 3% 26% 1% 17%;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 4% 26%;
+    font-size: 1.3em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 1.4em;
+    width: 27%;
+    margin: 4% 18% 13% 31%;
+    padding: 13px 0px;
+  }
+  footer .famousIcons11 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky11 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 12. Bienvenido: */
 /* Reset: */
 * {
@@ -4256,6 +4576,27 @@ footer .top {
   }
 }
 
+@media (min-width: 1024px) {
+  .logoBienvenido .logoCompleto12 {
+    margin: 12% 4% 2% 29%;
+  }
+  .bienvenidoForm .title12-B {
+    margin: 3% -5%;
+  }
+  .bienvenidoForm .title12-C {
+    margin: -5% 0% 1% -6%;
+  }
+  footer {
+    margin: -7% 0% 0% 0%;
+  }
+  footer .famousIcons12 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky12 {
+    margin: -15% 1% -10% 1%;
+  }
+}
+
 /* 13. Respuesta para el form de "Password": */
 /* Reset: */
 * {
@@ -4469,6 +4810,23 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoRespuestaPassword .logoCompleto13 {
+    margin: 12% 4% 2% 29%;
+  }
+  .respuestaPasswordImg {
+    height: 80vh;
+    width: 66%;
+    margin: 3% 17%;
+  }
+  footer .famousIcons13 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky13 {
+    margin: -15% 1% -10% 1%;
   }
 }
 
@@ -4964,6 +5322,41 @@ footer .top {
     right: 8px;
     width: 37px;
     bottom: 57px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoCarrito .logoCompleto14 {
+    margin: 12% 4% 2% 29%;
+  }
+  .metodoDeCompra ul li .cart14 {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li .shirt {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li .add {
+    margin: 9% 1% 1% 46%;
+  }
+  .yourProducts {
+    margin: 6% 10%;
+  }
+  #clear {
+    margin: 3% 0% 8% 23%;
+  }
+  a #inicio {
+    margin: 0% 0% 8% 15%;
+    padding: 13px 0px;
+    width: 94%;
+  }
+  .imgProducts {
+    margin: 1% 1%;
+  }
+  footer .famousIcons14 {
+    margin: -9% 1% -11% 1%;
+  }
+  footer .logoOnky14 {
+    margin: -15% 1% -10% 1%;
   }
 }
 /*# sourceMappingURL=style.css.map */

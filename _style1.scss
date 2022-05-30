@@ -269,9 +269,7 @@ footer {
         margin: 0% 0% 0% 0%;
     }
 
-}
-
-;
+};
 
 @media (min-width: 768px) {
     main {
@@ -381,6 +379,65 @@ footer {
 
 }
 }
+
+
+}
+
+@media (min-width: 1024px) {
+main {
+    .portada {
+        .portadaImg {
+    margin: 6% 0% 1% 0%;
+}
+.login {
+    padding: 233px 26px;
+    h3 {
+        margin: 1% 30% 1% 1%;
+    }
+}
+}
+
+.infoDeLaEmpresa {
+    .infoImg {
+    height: 100vh;
+    width: 50%;
+}
+}
+
+.productosDestacados {
+    .carousel1 {
+        .carousel {
+            img {
+    height: 100vh;
+    padding: 21px 318px;
+}
+        }
+    }
+}
+
+.imagenDeInstagram {
+    .subtitle {
+    margin: 6% 0% 3% 0%;
+}
+.insta {
+    margin: -7px 49px 75px 40px;
+    padding: 1px 146px;
+}
+}
+
+
+}
+
+footer {
+    .famousIcons {
+        margin: -9% 1% -11% 1%;
+    }
+    
+    .logoOnky {
+        margin: -15% 1% -10% 1%;
+    }
+    }
+
 
 
 }

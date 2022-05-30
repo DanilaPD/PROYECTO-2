@@ -350,3 +350,52 @@ img {
     
     
     }
+
+@media (min-width: 1024px) {
+        .logoTops {
+            .logoCompleto4 {
+            margin: 12% 4% 2% 29%;
+        }
+    }
+
+    .portadaTops {
+        img {
+        width: 57%;
+        margin: 1% 22%;
+    }
+}
+
+.productosTops {
+    h3 {
+    margin: 12% 18% 2% 19%;
+}
+img {
+    height: 52vh;
+    width: 31%;
+    margin: 3% 9%;
+    &:last-child {
+        margin: 3% 34%;
+    }
+}
+}
+
+.carousel5 {
+.carousel {
+    img {
+        padding: 1px 266px;
+}
+}
+}
+
+
+    footer {
+        .famousIcons4 {
+            margin: -9% 1% -11% 1%;
+        }
+        
+        .logoOnky4 {
+            margin: -15% 1% -10% 1%;
+        }
+        }
+
+}
