@@ -521,26 +521,46 @@ footer {
         }
         }
 
-        .tipoDeC {
-            select {
-            font-size: 1.2em;
+    .typeDeConsulta {
+        h3 {
+            font-size: 1.4em;
+            margin: -4% 35% -11% 26%;
         }
+        .form-control-4 {
+        .tipoDeC {
+        height: 10vh;
+        margin: 9% 0% -1% 17%;
+        select {
+         font-size: 1.2em;
+     }
     }
+}
+}
 
+.mensaje {
+    margin: -2% 21% 11% 11%;
+   font-size: 1.4em;
+   .comentarioTextArea {
+    margin: 1% 0% 1% 9%;
+    width: 78%;
+    height: 46vh;
+}
+}
 
             .novedades {
                  h3 {
-                font-size: 1.1em;
-                margin: 16% 0% 4% -2%;
+                    font-size: 1.5em;
+                    margin: -4% 0% 3% -6%;
             }
             .answer {
-                 font-size: 0.9em;
+    font-size: 1.3em;
+    margin: -2% -22% 2% 26%;
              }
             }
     
             
             .submit {
-                padding: 13px 0px;
+                font-size: 1.4em;
             }
          
     }

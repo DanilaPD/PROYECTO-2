@@ -356,22 +356,183 @@ footer {
         ul {
             li {
                 p {
-        margin: 0% 1% 0% -2%;
+                    margin: 0% 1% 0% -2%;
+                }
+            }
+        }
     }
-}
+
+    .yourProducts {
+        margin: 3% 25%;
     }
+
+    .imgProducts {
+        height: 60vh;
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+
 }
 
-.yourProducts {
-    margin: 3% 25%;
-}
+@media (min-width: 768px) {
+    .logoCarrito {
+        .logoCompleto14 {
+            margin: 18% 4% 2% 29%;
+        }
+    }
 
-.imgProducts {
-    height: 60vh;
-}
+    .title14-A {
+        font-size: 1.8em;
+    }
 
-footer {
-    margin: 0% 0% 0% 0%;
-}
+    .title14-B {
+        font-size: 1.7em;
+        margin: 4% 28% 0% 29%;
+    }
+
+    .cartImg {
+        height: 50vh;
+        width: 45%;
+        margin: 1% 28% 7% 28%;
+    }
+
+    .btnWhatsapp {
+        right: 8px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
+    }
+
+    .metodoDeCompra {
+        div {
+            .subtitleCart1 {
+                font-size: 1.8em;
+            }
+
+            .subtitleCart2 {
+                font-size: 1.8em;
+            }
+        }
+
+        ul {
+            li {
+                .cart14 {
+                    margin: 9% 1% 1% 45%;
+                    font-size: 2em;
+                }
+                p {
+                    margin: 0% 1% 0% -1%;
+                    font-size: 1.7em;
+                }
+            }
+
+            li {
+                .shirt {
+                    margin: 9% 1% 1% 45%;
+                    font-size: 2em;
+                }
+                p {
+                    margin: 0% 1% 0% -1%;
+                    font-size: 1.7em;
+                }
+            }
+
+            li {
+                .add {
+                    margin: 9% 1% 1% 45%;
+                    font-size: 2em;
+                }
+                p {
+                    margin: 0% 1% 0% -1%;
+                    font-size: 1.7em;
+                }
+            }
+
+        }
+
+        .subtitleCart3 {
+            font-size: 1.8em;
+        }
+
+        .subtitleCart4 {
+            font-size: 1.8em;
+        }
+    }
+
+    .cart {
+        padding: 0px;
+    }
+
+    .yourProducts {
+        margin: 6% 13%;
+        font-size: 1.3em;
+    }
+
+    #clear {
+        margin: 3% 0% 8% 29%;
+        padding: 14px 0px;
+        width: 85%;
+    }
+
+    a {
+        #inicio {
+            margin: 0% 0% 8% 20%;
+            padding: 15px 0px;
+            width: 96%;
+        }
+    }
+
+    .imgProducts {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .nameOfTheProduct {
+        font-size: 1.1em;
+        margin: 5% -4% 6% 9%;
+    }
+
+    .tiny {
+        margin: 2% 0% 11% 6%;
+        width: 86%;
+    }
+
+    .gracias {
+        border-top: 1px solid var(--black);
+        font-size: 1.9em;
+        margin: 15% 15% 4% 22%;
+    }
+
+    footer {
+        .famousIcons14 {
+            h2 {
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
+            }
+
+            .icons14 {
+                font-size: 1.7em;
+            }
+        }
+
+        .logoOnky14 {
+            .copyright14 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
+    }
+
 
 }
