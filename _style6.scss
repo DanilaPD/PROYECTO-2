@@ -212,3 +212,40 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .portadaCalzas {
+        img {
+        height: 45vh;
+    }
+}
+
+.productosCalzas {
+    img {
+    height: 60vh;
+    }
+}
+
+.carousel6 {
+    .carousel {
+        img {
+    height: 75vh;
+    }
+}
+
+.carousel-indicators {
+    margin-bottom: 2rem;
+}
+}
+
+.buttonComprar6 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+}
+
+footer {
+    margin: 0% 0% 0% 0%;
+}
+
+}

@@ -25,67 +25,114 @@
     margin: 6% 0%;
 }
 
-
-.passwordForm {
+.containerPassword {
     border-top: 3px solid black;
     background-color: var(--beige);
     padding: 2% 0 2% 10%;
     box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
     margin: 6% 0% 21% 0%;
 
-    .title11-B {
-        font-family: "Alegreya Sans", sans-serif;
-        color: var(--black);
-        font-size: 1.6em;
-        font-weight: 600;
-        text-align: center;
-        margin: 2% 1% 1% -5%;
-        padding: 24px 0px;
-    }
-
-    .p11 {
-        font-family: "Alegreya Sans", sans-serif;
-        border-top: 1px solid var(--black);
-        color: var(--black);
-        font-size: 1.1em;
-        font-weight: 600;
-        text-align: center;
-        margin: 4% 6% 6% -4%;
-        padding: 31px 0px;
-    }
-
-    .correoPassword {
-        .correoPassword11 {
-            margin: -2% 1% 9% 9%;
-            padding: 2% 0%;
-            display: inline-flex;
-            align-items: center;
-            align-content: center;
-        }
-    }
-
-    .submit-Password {
-        font-family: "Alegreya Sans", sans-serif;
-        color: var(--black);
-        background-color: var(--beige);
-        font-size: 1.1em;
-        font-weight: 600;
-        width: 32%;
-        margin: 4% 18% 13% 30%;
-        padding: 5px 0px;
-        border-radius: 10px;
-        box-shadow: 1px 1px 10px 0px var(--black-light-version);
-        text-align: center;
-
-        &:hover {
-            background-color: var(--beige1);
+    .passwordForm {
+        .title11-B {
+            font-family: "Alegreya Sans", sans-serif;
             color: var(--black);
+            font-size: 1.6em;
+            font-weight: 600;
+            text-align: center;
+            margin: 2% 1% 1% -5%;
+            padding: 24px 0px;
         }
 
-        a,
-        a:visited {
-            text-decoration: none;
+        .p11 {
+            font-family: "Alegreya Sans", sans-serif;
+            border-top: 1px solid var(--black);
             color: var(--black);
+            font-size: 1.1em;
+            font-weight: 600;
+            text-align: center;
+            margin: 4% 6% 6% -4%;
+            padding: 31px 0px;
+        }
+
+        .correoPassword {
+            font-family: "Alegreya Sans", sans-serif;
+            color: var(--black);
+            font-size: 1.1em;
+            text-align: center;
+            margin: -8% 5% 0% 0%;
+            padding: 24px 0px;
+            display: inline;
+
+            .correoPassword11 {
+                margin: 1% 18%;
+                display: inline-block;
+                align-items: center;
+                align-content: center;
+
+                input {
+                    border: 2px solid #f0f0f0;
+                    border-radius: 4px;
+                    display: block;
+                    font-family: inherit;
+                    font-size: 1em;
+                    padding: 5px;
+                    width: 96%;
+                    margin-top: 10px;
+
+                    &:focus {
+                        outline: 0;
+                        border-color: rgb(149, 207, 132);
+                    }
+                }
+            }
+        }
+
+        .correoPassword11.success {
+            input {
+                border-color: #00c854;
+            }
+        }
+
+        .correoPassword11.error {
+            input {
+                border-color: #ff6b5b;
+            }
+        }
+
+        small {
+            visibility: hidden;
+            color: #ff6b5b;
+            font-weight: 900;
+            font-size: 16px;
+        }
+
+        small.error {
+            visibility: visible;
+        }
+
+        .submit-Password {
+            font-family: "Alegreya Sans", sans-serif;
+            color: var(--black);
+            background-color: var(--beige);
+            font-size: 1.1em;
+            font-weight: 600;
+            width: 32%;
+            margin: 4% 18% 13% 30%;
+            padding: 5px 0px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px 0px var(--black-light-version);
+            text-align: center;
+
+            &:hover {
+                background-color: var(--beige1);
+                color: var(--black);
+            }
+
+            a,
+            a:visited {
+                text-decoration: none;
+                color: var(--black);
+            }
         }
     }
 }
@@ -184,3 +231,115 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .passwordImg {
+        height: 50vh;
+    }
+
+    .containerPassword {
+    .passwordForm {
+        .p11 {
+            margin: 4% 19% 6% 8%;
+        }
+    }
+    .correoPassword {
+        margin: -8% 5% 0% 6%;
+        .correoPassword11 {
+            margin: 1% 24%;
+        }
+    }
+    .submit-Password {
+        margin: 4% 18% 13% 29%;
+    }
+}
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .logoPassword {
+        .logoCompleto11 {
+        margin: 18% 4% 2% 29%;
+    }
+    }
+   
+        .title11-A {
+        font-size: 1.8em;
+    }   
+    
+    .passwordImg {
+        height: 90vh;
+    }
+    
+    .containerPassword {
+        .passwordForm {
+            .title11-B {
+                font-size: 1.9em;
+            }
+
+            .p11 {
+                font-size: 1.5em;
+            }
+    
+            .correoPassword {
+                .correoPassword11 {
+                margin: 1% 27%;
+                font-size: 1.3em;
+            }
+            }
+
+            .submit-Password {
+                font-size: 1.3em;
+                width: 28%;
+                margin: 4% 18% 13% 30%;
+                padding: 13px 0px;
+            }
+    }
+}
+ 
+    .btn-Whatsapp11 {
+        right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+    }
+    
+    .cart11 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+    
+    footer {
+        .famousIcons11 {
+            h2 {
+        font-size: 1.7em;
+        margin: 0% 17% 1% 20%;
+            }
+            .icons11 {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky11 {
+        .copyright11 {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+    }
+    
+    .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+    
+    }
+    }
+    
+    
+    }

@@ -63,7 +63,7 @@
             color: var(--black);
             font-size: 1.3em;
             text-align: center;
-            margin: -8% 3% 6% -5%;
+            margin: -8% 11% 6% 3%;
             padding: 24px 0px;
         }
 
@@ -282,4 +282,149 @@ footer {
         width: 32px;
         cursor: pointer;
     }
+}
+
+@media (min-width: 480px) {
+    .contactUs7 {
+        height: 50vh;
+    }
+
+    .containerIS {
+        .formIS {
+            .info-I-S {
+        margin: -8% 8% 6% -2%;
+    }
+    h2 {
+        margin: 0% 31% 5% 20%;
+    }
+    .form-control-IS {
+        label {
+        margin: 1% 24%;
+    }
+}
+    .submit-I-S {
+        margin: 7% 18% 7% 28%;
+        padding: 10px 0px;
+    }
+
+}
+    }
+
+    .botonesI-S {
+        button {
+        width: 40%;
+        margin: 2% 0% 6% 30%;
+    }
+}
+
+footer {
+    margin: 0% 0% 0% 0%;
+}
+
+
+}
+
+@media (min-width: 768px) {
+.logoInicioDeSesion {
+    .logoCompleto7 {
+    margin: 18% 4% 2% 29%;
+}
+}
+
+.intro-I-S {
+    .title7-A {
+    font-size: 1.8em;
+}
+.title7-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+}
+}
+
+.contactUs7 {
+    height: 90vh;
+}
+
+.containerIS {
+    .formIS {
+        h2 {
+    font-size: 2.1em;
+    margin: 0% 31% 5% 23%;
+}
+
+.info-I-S {
+    font-size: 1.5em;
+}
+
+.form-control-IS {
+    label {
+    margin: 1% 26%;
+    font-size: 1.5em;
+}
+}
+
+.submit-I-S {
+    margin: 7% 18% 7% 32%;
+    padding: 16px 0px;
+    width: 26%;
+}
+
+}
+}
+
+.passwordP {
+    font-size: 1.5em;
+}
+
+.botonesI-S {
+    button {
+    width: 26%;
+    padding: 14px 0px;
+    margin: 2% 0% 5% 37%;
+}
+}
+
+.btn-whatsapp7 {
+    right: 8px;
+width: 37px;
+line-height: 80px;
+height: 155px;
+bottom: 26px;
+}
+
+.cart8 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+}
+
+footer {
+    .famousIcons7 {
+        h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+        }
+        .icons7 {
+            font-size: 1.7em;
+        }
+}
+
+.logoOnky7 {
+    .copyright7 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+}
+}
+
+.top {
+height: 48px;
+right: 8px;
+width: 37px;
+bottom: 57px;
+
+}
+}
+
+
 }

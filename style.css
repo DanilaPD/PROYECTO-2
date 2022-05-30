@@ -212,6 +212,7 @@ footer {
   background-color: #333;
   color: var(--beige);
   padding: 28% 0%;
+  margin: 0% 0% 43% 0%;
   border-top: 3px solid var(--grey);
   -webkit-box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
           box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
@@ -276,6 +277,103 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  main .portada .portadaImg {
+    margin: 13% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 95px 26px;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 1.3em;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 54vh;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 66vh;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 21px;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  main .portada .portadaImg {
+    margin: 8% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 151px 26px;
+    font-size: 1.3em;
+  }
+  main .portada .login h3 {
+    font-size: 1.9em;
+  }
+  main .portada .login .botones button {
+    font-size: 1.1em;
+    padding: 8px 1px;
+    width: 62%;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 1.8em;
+    margin: 8% -3% 13% 0%;
+  }
+  main .infoDeLaEmpresa .title {
+    font-size: 1.7em;
+    margin: 0% 1% 8% 1%;
+  }
+  main .infoDeLaEmpresa p {
+    font-size: 1.2em;
+  }
+  main .infoDeLaEmpresa .infoImg {
+    height: 80vh;
+  }
+  main .infoDeLaEmpresa .btnWhatsapp {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  main .infoDeLaEmpresa .cart1 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  main .productosDestacados .subtitle {
+    font-size: 1.7em;
+  }
+  main .productosDestacados .carousel1 .carousel img {
+    height: 90vh;
+  }
+  main .imagenDeInstagram .subtitle {
+    font-size: 1.7em;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 32px;
+  }
+  footer .famousIcons .subtitleSocialNetworks {
+    font-size: 1.7em;
+  }
+  footer .famousIcons .icons {
+    font-size: 1.7em;
+  }
+  footer .logoOnky .copyright {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
 }
 
 /* 2. Nuestra misión: */
@@ -452,6 +550,64 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  main .ourMissionImg {
+    height: 46vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoMission .logoCompleto1 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title1-A {
+    font-size: 1.8em;
+  }
+  .title1-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .p1 p {
+    font-size: 1.3em;
+  }
+  main .ourMissionImg {
+    height: 70vh;
+  }
+  .btn-whatsapp1 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart2 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons1 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons1 .icons1 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky1 .copyright1 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
 /* 3. Nuestros clientes: */
 /* Reset: */
 * {
@@ -616,6 +772,73 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .clientesImg img {
+    height: 70vh;
+  }
+  .p2 {
+    margin: 3% 17% 16% 18%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoClients2 .logoCompleto2 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title2-A {
+    font-size: 1.8em;
+  }
+  .title2-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .clientesImg img {
+    height: 70vh;
+    width: 37%;
+    margin: 4% 6%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .p2 {
+    font-size: 1.7em;
+    margin: 6% 17% 16% 18%;
+  }
+  .btn-whatsapp2 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart3 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons2 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons2 .icons2 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky2 .copyright2 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
 }
 
 /*  4. Contacto: */
@@ -1060,6 +1283,117 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .contactUs3 {
+    height: 50vh;
+  }
+  .container-4 .contact h3 {
+    margin: -3% 21% 0% 11%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    margin: 1% 11%;
+  }
+  .container-4 .contact .typeDeConsulta h3 {
+    margin: -6% 35% -11% 26%;
+  }
+  .container-4 .contact .typeDeConsulta .tipoDeC {
+    height: 9vh;
+  }
+  .container-4 .contact .mensaje {
+    margin: -4% 21% 11% 11%;
+    padding: 11px 17px;
+  }
+  .container-4 .contact .novedades h3 {
+    margin: -6% 22% 6% 10%;
+  }
+  .container-4 .contact .novedades .answer {
+    margin: -17% -14% 7% 20%;
+  }
+  .container-4 .contact .submit {
+    width: 32%;
+    margin: 3% 17% 3% 27%;
+    padding: 8px 0px;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoContactUs3 .logoCompleto3 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title3-A {
+    font-size: 1.8em;
+  }
+  .title3-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs3 {
+    height: 90vh;
+  }
+  .container-4 .contact h2 {
+    font-size: 1.9em;
+  }
+  .container-4 .contact h3 {
+    font-size: 1.5em;
+    margin: 0% 21% 4% 11%;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 1.2em;
+  }
+  .container-4 .contact .tipoDeC select {
+    font-size: 1.2em;
+  }
+  .container-4 .contact .novedades h3 {
+    font-size: 1.1em;
+    margin: 16% 0% 4% -2%;
+  }
+  .container-4 .contact .novedades .answer {
+    font-size: 0.9em;
+  }
+  .container-4 .contact .submit {
+    padding: 13px 0px;
+  }
+  .p3 {
+    font-size: 1.8em;
+  }
+  .p3-b {
+    font-size: 1.8em;
+  }
+  .btn-whatsapp3 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart4 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons3 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons3 .icons3 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky3 .copyright3 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
 /* 5. Tops: */
 /* Reset: */
 * {
@@ -1286,6 +1620,26 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .productosTops img {
+    height: 52vh;
+  }
+  .carousel5 .carousel img {
+    height: 75vh;
+  }
+  .carousel5 .carousel-indicators {
+    margin-bottom: 2rem;
+  }
+  .buttonComprar5 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
 }
 
 /* 6. Calzas: */
@@ -1515,6 +1869,29 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .portadaCalzas img {
+    height: 45vh;
+  }
+  .productosCalzas img {
+    height: 60vh;
+  }
+  .carousel6 .carousel img {
+    height: 75vh;
+  }
+  .carousel6 .carousel-indicators {
+    margin-bottom: 2rem;
+  }
+  .buttonComprar6 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
 }
 
 /* 7. Todos los productos: */
@@ -1857,6 +2234,44 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .productosTodos .portada6 {
+    height: 80vh;
+  }
+  .todosNuestrosProductos .carousel-Nuestros-Productos .carousel img {
+    height: 80vh;
+  }
+  .fotosProductos .calzas1 .calzas {
+    height: 80vh;
+  }
+  .fotosProductos .tops2 .tops {
+    height: 80vh;
+  }
+  .fotosProductos .conjuntos3 .conjuntos {
+    height: 80vh;
+  }
+  .fotosProductos .cuellitos4 .cuellitos {
+    height: 80vh;
+  }
+  .fotosProductos .gorras5 .gorras {
+    height: 80vh;
+  }
+  .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
+    height: 80vh;
+  }
+  .fotosProductos .remerasDeportivas7 .remerasDeportivas {
+    height: 80vh;
+  }
+  .buttonComprar7 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
 /* 8. Iniciar sesión */
 /* Reset: */
 * {
@@ -1935,7 +2350,7 @@ footer .top {
   color: var(--black);
   font-size: 1.3em;
   text-align: center;
-  margin: -8% 3% 6% -5%;
+  margin: -8% 11% 6% 3%;
   padding: 24px 0px;
 }
 
@@ -2155,6 +2570,102 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .contactUs7 {
+    height: 50vh;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 8% 6% -2%;
+  }
+  .containerIS .formIS h2 {
+    margin: 0% 31% 5% 20%;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 1% 24%;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 28%;
+    padding: 10px 0px;
+  }
+  .botonesI-S button {
+    width: 40%;
+    margin: 2% 0% 6% 30%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoInicioDeSesion .logoCompleto7 {
+    margin: 18% 4% 2% 29%;
+  }
+  .intro-I-S .title7-A {
+    font-size: 1.8em;
+  }
+  .intro-I-S .title7-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs7 {
+    height: 90vh;
+  }
+  .containerIS .formIS h2 {
+    font-size: 2.1em;
+    margin: 0% 31% 5% 23%;
+  }
+  .containerIS .formIS .info-I-S {
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 1% 26%;
+    font-size: 1.5em;
+  }
+  .containerIS .formIS .submit-I-S {
+    margin: 7% 18% 7% 32%;
+    padding: 16px 0px;
+    width: 26%;
+  }
+  .passwordP {
+    font-size: 1.5em;
+  }
+  .botonesI-S button {
+    width: 26%;
+    padding: 14px 0px;
+    margin: 2% 0% 5% 37%;
+  }
+  .btn-whatsapp7 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart8 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons7 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons7 .icons7 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky7 .copyright7 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
 }
 
 /* 9. Registrate */
@@ -2452,6 +2963,84 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .contactUs8 {
+    height: 60vh;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    margin: -8% 13% 6% 4%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoRegistrate .logoCompleto8 {
+    margin: 18% 4% 2% 29%;
+  }
+  .introRegistrate .title8-A {
+    font-size: 1.8em;
+  }
+  .introRegistrate .title8-B {
+    font-size: 1.7em;
+    margin: 4% 28% 0% 29%;
+  }
+  .contactUs8 {
+    height: 90vh;
+  }
+  .container-R-8 .form-R-8 h2 {
+    font-size: 1.9em;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    font-size: 1.5em;
+    margin: -4% 13% 10% 4%;
+  }
+  .container-R-8 .form-R-8 .novedades8 h3 {
+    font-size: 1.1em;
+    margin: 16% 0% 4% -2%;
+  }
+  .container-R-8 .form-R-8 .novedades8 .answer8 {
+    font-size: 0.9em;
+  }
+  .container-R-8 .form-R-8 .submit8 {
+    padding: 13px 0px;
+  }
+  .p8 {
+    font-size: 1.8em;
+  }
+  .btn-whatsapp8 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart9 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons8 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons8 .icons8 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky8 .copyright8 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
 /* 10. Respuesta para el form de "Contact Us": */
 /* Reset: */
 * {
@@ -2611,6 +3200,21 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .respuestaImg {
+    height: 40vh;
+  }
+  .title10-B {
+    margin: 9% 14% -2% 16%;
+  }
+  .p10 {
+    margin: 4% 14% 6% 16%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
 /* 11. Password: */
 /* Reset: */
 * {
@@ -2653,7 +3257,7 @@ footer .top {
   margin: 6% 0%;
 }
 
-.passwordForm {
+.containerPassword {
   border-top: 3px solid black;
   background-color: var(--beige);
   padding: 2% 0 2% 10%;
@@ -2662,7 +3266,7 @@ footer .top {
   margin: 6% 0% 21% 0%;
 }
 
-.passwordForm .title11-B {
+.containerPassword .passwordForm .title11-B {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   font-size: 1.6em;
@@ -2672,7 +3276,7 @@ footer .top {
   padding: 24px 0px;
 }
 
-.passwordForm .p11 {
+.containerPassword .passwordForm .p11 {
   font-family: "Alegreya Sans", sans-serif;
   border-top: 1px solid var(--black);
   color: var(--black);
@@ -2683,12 +3287,19 @@ footer .top {
   padding: 31px 0px;
 }
 
-.passwordForm .correoPassword .correoPassword11 {
-  margin: -2% 1% 9% 9%;
-  padding: 2% 0%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.containerPassword .passwordForm .correoPassword {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.containerPassword .passwordForm .correoPassword .correoPassword11 {
+  margin: 1% 18%;
+  display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2696,7 +3307,42 @@ footer .top {
       align-content: center;
 }
 
-.passwordForm .submit-Password {
+.containerPassword .passwordForm .correoPassword .correoPassword11 input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 5px;
+  width: 96%;
+  margin-top: 10px;
+}
+
+.containerPassword .passwordForm .correoPassword .correoPassword11 input:focus {
+  outline: 0;
+  border-color: #95cf84;
+}
+
+.containerPassword .passwordForm .correoPassword11.success input {
+  border-color: #00c854;
+}
+
+.containerPassword .passwordForm .correoPassword11.error input {
+  border-color: #ff6b5b;
+}
+
+.containerPassword .passwordForm small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.containerPassword .passwordForm small.error {
+  visibility: visible;
+}
+
+.containerPassword .passwordForm .submit-Password {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
   background-color: var(--beige);
@@ -2711,13 +3357,13 @@ footer .top {
   text-align: center;
 }
 
-.passwordForm .submit-Password:hover {
+.containerPassword .passwordForm .submit-Password:hover {
   background-color: var(--beige1);
   color: var(--black);
 }
 
-.passwordForm .submit-Password a,
-.passwordForm .submit-Password a:visited {
+.containerPassword .passwordForm .submit-Password a,
+.containerPassword .passwordForm .submit-Password a:visited {
   text-decoration: none;
   color: var(--black);
 }
@@ -2815,6 +3461,85 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .passwordImg {
+    height: 50vh;
+  }
+  .containerPassword .passwordForm .p11 {
+    margin: 4% 19% 6% 8%;
+  }
+  .containerPassword .correoPassword {
+    margin: -8% 5% 0% 6%;
+  }
+  .containerPassword .correoPassword .correoPassword11 {
+    margin: 1% 24%;
+  }
+  .containerPassword .submit-Password {
+    margin: 4% 18% 13% 29%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoPassword .logoCompleto11 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title11-A {
+    font-size: 1.8em;
+  }
+  .passwordImg {
+    height: 90vh;
+  }
+  .containerPassword .passwordForm .title11-B {
+    font-size: 1.9em;
+  }
+  .containerPassword .passwordForm .p11 {
+    font-size: 1.5em;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 1% 27%;
+    font-size: 1.3em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 1.3em;
+    width: 28%;
+    margin: 4% 18% 13% 30%;
+    padding: 13px 0px;
+  }
+  .btn-Whatsapp11 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart11 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons11 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons11 .icons11 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky11 .copyright11 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
 }
 
 /* 12. Bienvenido: */
@@ -2983,6 +3708,63 @@ footer .top {
   cursor: pointer;
 }
 
+@media (min-width: 480px) {
+  .bienvenidoImg {
+    height: 50vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoBienvenido .logoCompleto12 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title12-A {
+    font-size: 1.8em;
+  }
+  .bienvenidoImg {
+    height: 90vh;
+  }
+  .bienvenidoForm .title12-B {
+    font-size: 1.9em;
+  }
+  .bienvenidoForm .title12-C {
+    font-size: 1.9em;
+  }
+  .btn-Whatsapp12 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart12 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons12 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons12 .icons12 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky12 .copyright12 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
+}
+
 /* 13. Respuesta para el form de "Password": */
 /* Reset: */
 * {
@@ -3016,7 +3798,7 @@ footer .top {
   color: var(--black);
   font-size: 1.6em;
   text-align: center;
-  margin: 2% 17% 1% 8%;
+  margin: 0% 24% 0% 25%;
 }
 
 .respuestaPasswordImg {
@@ -3137,6 +3919,66 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .title13-A {
+    margin: 0% 24% 0% 25%;
+  }
+  .respuestaPasswordImg {
+    height: 50vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    margin: 2% 11% 1% -2%;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logoRespuestaPassword .logoCompleto13 {
+    margin: 18% 4% 2% 29%;
+  }
+  .title13-A {
+    font-size: 1.8em;
+  }
+  .respuestaPasswordImg {
+    height: 90vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    font-size: 1.9em;
+  }
+  .btn-Whatsapp13 {
+    right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+  }
+  .cart13 {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 169px;
+  }
+  footer .famousIcons13 h2 {
+    font-size: 1.7em;
+    margin: 0% 17% 1% 20%;
+  }
+  footer .famousIcons13 .icons13 {
+    font-size: 1.7em;
+  }
+  footer .logoOnky13 .copyright13 {
+    font-size: 1.1em;
+    margin: 0% 2% 0% 3%;
+  }
+  footer .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+  }
 }
 
 /* 14. Cart: */
@@ -3502,5 +4344,23 @@ footer .top {
   line-height: 31px;
   width: 32px;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .cartImg {
+    height: 40vh;
+  }
+  .metodoDeCompra ul li p {
+    margin: 0% 1% 0% -2%;
+  }
+  .yourProducts {
+    margin: 3% 25%;
+  }
+  .imgProducts {
+    height: 60vh;
+  }
+  footer {
+    margin: 0% 0% 0% 0%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

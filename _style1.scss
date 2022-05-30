@@ -162,6 +162,7 @@ footer {
     background-color: #333;
     color: var(--beige);
     padding: 28% 0%;
+    margin: 0% 0% 43% 0%;
     border-top: 3px solid var(--grey);
     box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
 
@@ -222,4 +223,163 @@ footer {
         width: 32px;
         cursor: pointer;
     }
+}
+
+@media (min-width: 480px) {
+
+    main {
+        .portada {
+            .portadaImg {
+                margin: 13% 0% 1% 0%;
+            }
+
+            .login {
+                padding: 95px 26px;
+            }
+        }
+
+        .infoDeLaEmpresa {
+            .slogan {
+                font-size: 1.3em;
+            }
+
+            .infoImg {
+                height: 54vh;
+            }
+        }
+
+        .productosDestacados {
+            .carousel1 {
+                .carousel {
+                    img {
+                        height: 66vh;
+                    }
+                }
+            }
+        }
+
+        .imagenDeInstagram {
+            .insta {
+                margin: -7px 49px 75px 21px;
+            }
+        }
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+
+}
+
+;
+
+@media (min-width: 768px) {
+    main {
+        .portada {
+            .portadaImg {
+                margin: 8% 0% 1% 0%;
+            }
+
+            .login {
+                padding: 151px 26px;
+                font-size: 1.3em;
+
+                h3 {
+                    font-size: 1.9em;
+                }
+
+                .botones {
+                    button {
+                        font-size: 1.1em;
+                        padding: 8px 1px;
+                        width: 62%;
+                    }
+                }
+            }
+        }
+
+        .infoDeLaEmpresa {
+            .slogan {
+            font-size: 1.8em;
+            margin: 8% -3% 13% 0%;
+        }
+
+        .title {
+            font-size: 1.7em;
+            margin: 0% 1% 8% 1%;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .infoImg {
+            height: 80vh;
+        }
+
+        .btnWhatsapp {
+            right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+        }
+
+        .cart1 {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 169px;
+        }
+    }
+
+    .productosDestacados {
+        .subtitle {
+        font-size: 1.7em;
+    }
+
+    .carousel1 {
+        .carousel img {
+        height: 90vh;
+    }
+    }
+}
+
+.imagenDeInstagram {
+    .subtitle {
+    font-size: 1.7em;
+}
+.insta {
+    margin: -7px 49px 75px 32px;
+}
+}
+    }
+
+    footer {
+        .famousIcons {
+            .subtitleSocialNetworks {
+        font-size: 1.7em;
+            }
+            .icons {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky {
+        .copyright {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+}
+
+.top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+
+}
+}
+
+
 }

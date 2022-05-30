@@ -426,3 +426,175 @@ footer {
         cursor: pointer;
     }
 }
+
+
+@media (min-width: 480px) {
+.contactUs3 {
+    height: 50vh;
+}
+
+.container-4 {
+    .contact {
+        h3 {
+    margin: -3% 21% 0% 11%;
+    }
+
+    .infoClient {
+        .form-control-4 {
+            .infoDelCliente {
+                margin: 1% 11%;
+            }
+        }
+    }
+
+    .typeDeConsulta {
+        h3 {
+            margin: -6% 35% -11% 26%;
+        }
+        .tipoDeC {
+            height: 9vh;
+        }
+    }
+
+    .mensaje {
+        margin: -4% 21% 11% 11%;
+        padding: 11px 17px;
+    }
+
+    .novedades {
+         h3 {
+        margin: -6% 22% 6% 10%;
+    }
+    .answer {
+        margin: -17% -14% 7% 20%;
+    }
+}
+
+.submit {
+    width: 32%;
+    margin: 3% 17% 3% 27%;
+    padding: 8px 0px;
+}
+}
+}
+
+footer {
+    margin: 0% 0% 0% 0%;
+}
+}
+
+@media (min-width: 768px) {
+    .logoContactUs3 {
+        .logoCompleto3 {
+        margin: 18% 4% 2% 29%;
+    }
+    }
+   
+        .title3-A {
+        font-size: 1.8em;
+    }   
+    .title3-B {
+        font-size: 1.7em;
+        margin: 4% 28% 0% 29%;
+    }
+    
+    .contactUs3 {
+        height: 90vh;
+    }
+    
+    .container-4 {
+        .contact {
+            h2 {
+                font-size: 1.9em;
+            }
+
+            h3 {
+                font-size: 1.5em;
+                margin: 0% 21% 4% 11%;
+            }
+
+            .infoClient {
+                .form-control-4 {
+                    .infoDelCliente {
+                font-size: 1.2em;
+            }
+        }
+        }
+
+        .tipoDeC {
+            select {
+            font-size: 1.2em;
+        }
+    }
+
+
+            .novedades {
+                 h3 {
+                font-size: 1.1em;
+                margin: 16% 0% 4% -2%;
+            }
+            .answer {
+                 font-size: 0.9em;
+             }
+            }
+    
+            
+            .submit {
+                padding: 13px 0px;
+            }
+         
+    }
+}
+
+.p3 {
+    font-size: 1.8em;
+}
+
+.p3-b {
+    font-size: 1.8em;
+}
+
+    .btn-whatsapp3 {
+        right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+    }
+    
+    .cart4 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+    
+    footer {
+        .famousIcons3 {
+            h2 {
+        font-size: 1.7em;
+        margin: 0% 17% 1% 20%;
+            }
+            .icons3 {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky3 {
+        .copyright3 {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+    }
+    
+    .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+    
+    }
+    }
+    
+    
+    }

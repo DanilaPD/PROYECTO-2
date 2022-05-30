@@ -155,3 +155,87 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    main {
+        .ourMissionImg {
+            height: 46vh;
+        }
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+};
+
+@media (min-width: 768px) {
+    .logoMission {
+        .logoCompleto1 {
+        margin: 18% 4% 2% 29%;
+    }
+    }
+
+        .title1-A {
+        font-size: 1.8em;
+    }   
+    .title1-B {
+        font-size: 1.7em;
+        margin: 4% 28% 0% 29%;
+    }
+
+    .p1 {
+        p {
+            font-size: 1.3em;
+        }
+    }
+    
+    main {
+    .ourMissionImg {
+        height: 70vh;
+    }
+}
+
+    .btn-whatsapp1 {
+        right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+    }
+    
+    .cart2 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+    
+    footer {
+        .famousIcons1 {
+            h2 {
+        font-size: 1.7em;
+        margin: 0% 17% 1% 20%;
+            }
+            .icons1 {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky1 {
+        .copyright1 {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+    }
+    
+    .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+    
+    }
+    }
+    
+    
+    }

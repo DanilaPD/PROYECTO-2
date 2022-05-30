@@ -147,3 +147,93 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .clientesImg {
+         img {
+        height: 70vh;
+         }
+    }
+
+    .p2 {
+        margin: 3% 17% 16% 18%;
+    }
+
+    footer {
+    margin: 0% 0% 0% 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .logoClients2 {
+        .logoCompleto2 {
+        margin: 18% 4% 2% 29%;
+    }
+    }
+
+        .title2-A {
+        font-size: 1.8em;
+    }   
+    .title2-B {
+        font-size: 1.7em;
+        margin: 4% 28% 0% 29%;
+    }
+
+    .clientesImg {
+        img {
+        height: 70vh;
+        width: 37%;
+        margin: 4% 6%;
+        justify-content: space-evenly;
+    }
+}
+  
+    .p2 {
+            font-size: 1.7em;
+            margin: 6% 17% 16% 18%;
+    }
+
+    .btn-whatsapp2 {
+        right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+    }
+    
+    .cart3 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+    
+    footer {
+        .famousIcons2 {
+            h2 {
+        font-size: 1.7em;
+        margin: 0% 17% 1% 20%;
+            }
+            .icons2 {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky2 {
+        .copyright2 {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+    }
+    
+    .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+    
+    }
+}
+    
+    
+    }

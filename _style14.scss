@@ -346,3 +346,32 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .cartImg {
+        height: 40vh;
+    }
+
+    .metodoDeCompra {
+        ul {
+            li {
+                p {
+        margin: 0% 1% 0% -2%;
+    }
+}
+    }
+}
+
+.yourProducts {
+    margin: 3% 25%;
+}
+
+.imgProducts {
+    height: 60vh;
+}
+
+footer {
+    margin: 0% 0% 0% 0%;
+}
+
+}

@@ -148,3 +148,84 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .bienvenidoImg {
+        height: 50vh;
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .logoBienvenido {
+        .logoCompleto12 {
+        margin: 18% 4% 2% 29%;
+    }
+    }
+   
+        .title12-A {
+        font-size: 1.8em;
+    }   
+    
+    .bienvenidoImg {
+        height: 90vh;
+    }
+    
+        .bienvenidoForm {
+            .title12-B {
+                font-size: 1.9em;
+            }
+
+            .title12-C {
+                font-size: 1.9em;
+            }
+    
+    }
+        
+    .btn-Whatsapp12 {
+        right: 8px;
+    width: 37px;
+    line-height: 80px;
+    height: 155px;
+    bottom: 26px;
+    }
+    
+    .cart12 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+    
+    footer {
+        .famousIcons12 {
+            h2 {
+        font-size: 1.7em;
+        margin: 0% 17% 1% 20%;
+            }
+            .icons12 {
+                font-size: 1.7em;
+            }
+    }
+    
+    .logoOnky12 {
+        .copyright12 {
+        font-size: 1.1em;
+        margin: 0% 2% 0% 3%;
+    }
+    }
+    
+    .top {
+    height: 48px;
+    right: 8px;
+    width: 37px;
+    bottom: 57px;
+    
+    }
+    }
+    
+    
+    }

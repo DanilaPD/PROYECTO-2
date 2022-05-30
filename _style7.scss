@@ -337,3 +337,78 @@ footer {
         cursor: pointer;
     }
 }
+
+
+@media (min-width: 480px) {
+.productosTodos {
+    .portada6 {
+    height: 80vh;
+    }
+}
+
+.todosNuestrosProductos {
+    .carousel-Nuestros-Productos {
+        .carousel {
+            img {
+    height: 80vh;
+    }
+}
+    }
+}
+
+.fotosProductos {
+    .calzas1 {
+        .calzas {
+    height: 80vh;
+    }
+}
+
+.tops2 {
+    .tops {
+    height: 80vh;
+}
+}
+
+.conjuntos3 {
+    .conjuntos {
+    height: 80vh;
+}
+}
+
+.cuellitos4 {
+     .cuellitos {
+    height: 80vh;
+}
+}
+
+.gorras5 {
+    .gorras {
+    height: 80vh;
+    }
+}
+
+.remerasPersonalizadas6 {
+    .remerasPersonalizadas {
+    height: 80vh;
+}
+}
+
+.remerasDeportivas7 {
+    .remerasDeportivas {
+    height: 80vh;
+}
+}
+}
+
+.buttonComprar7 {
+    margin: 0% 0% 10% 28%;
+    padding: 14px 0px;
+    width: 44%;
+}
+
+footer {
+    margin: 0% 0% 0% 0%;
+}
+
+
+}

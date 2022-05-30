@@ -142,3 +142,22 @@ footer {
         cursor: pointer;
     }
 }
+
+@media (min-width: 480px) {
+    .respuestaImg {
+        height: 40vh;
+    }
+
+    .title10-B {
+        margin: 9% 14% -2% 16%;
+    }
+
+    .p10 {
+        margin: 4% 14% 6% 16%;
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
+
+}
