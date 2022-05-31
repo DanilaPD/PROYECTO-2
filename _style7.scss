@@ -139,7 +139,7 @@
 //* Filtrando productos por categoría:
 
 #contenedorFiltrado {
-    background: #fff ;
+    background: #fff;
     display: inline-block;
     max-width: 900px;
     margin: 1rem auto;
@@ -147,72 +147,160 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.35);
     text-align: center;
     border-radius: 3px;
-   }
+}
 
-   figure {
-       #filtro {
-    margin: 0 0 15px;
-    padding: 0;
-    text-align: center;
-    letter-spacing: 10px;
-    img {
-     width: 0px;
-     margin: 10px 0 0 0;
-     border-radius: 5px;
-     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
-     border-top: 1px solid #e0e0e0;
-     -webkit-transition: 1s;
-     transition: 1s;
+figure {
+    #filtro {
+        margin: 0 0 15px;
+        padding: 0;
+        text-align: center;
+        letter-spacing: 10px;
+
+        img {
+            width: 0px;
+            margin: 10px 0 0 0;
+            border-radius: 5px;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.55);
+            border-top: 1px solid #e0e0e0;
+            -webkit-transition: 1s;
+            transition: 1s;
+        }
     }
-   }
 }
 
 
-.inputFiltrado#calzas:checked ~ figure img.calzas { width: 250px;}
-.inputFiltrado#calzas:checked ~ figure img:not(.calzas) { opacity: 0; position: absolute;  top: 0; left: 50%;} 
+.inputFiltrado#calzas:checked~figure img.calzas {
+    width: 250px;
+}
 
-.inputFiltrado#tops:checked ~ figure img.tops { width: 250px;}
-.inputFiltrado#tops:checked ~ figure img:not(.tops) { opacity: 0;  position: absolute;  top: 0; left: 50%;}  
+.inputFiltrado#calzas:checked~figure img:not(.calzas) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
 
-.inputFiltrado#conjuntos:checked ~ figure img.conjuntos { width: 250px; }
-.inputFiltrado#conjuntos:checked ~ figure img:not(.conjuntos) { opacity: 0;  position: absolute;  top: 0; left: 50%;} 
+.inputFiltrado#tops:checked~figure img.tops {
+    width: 250px;
+}
 
-.inputFiltrado#cuellitos:checked ~ figure img.cuellitos { width: 250px;}
-.inputFiltrado#cuellitos:checked ~ figure img:not(.cuellitos) { opacity: 0; position: absolute; top: 0; left: 50%;}
+.inputFiltrado#tops:checked~figure img:not(.tops) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
 
-.inputFiltrado#gorras:checked ~ figure img.gorras { width: 250px;}
-.inputFiltrado#gorras:checked ~ figure img:not(.gorras) { opacity: 0; position: absolute; top: 0; left: 50%;}
+.inputFiltrado#conjuntos:checked~figure img.conjuntos {
+    width: 250px;
+}
 
-.inputFiltrado#remerasPersonalizadas:checked ~ figure img.remerasPersonalizadas { width: 250px;}
-.inputFiltrado#remerasPersonalizadas:checked ~ figure img:not(.remerasPersonalizadas) { opacity: 0; position: absolute; top: 0; left: 50%;}
+.inputFiltrado#conjuntos:checked~figure img:not(.conjuntos) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
 
-.inputFiltrado#remerasDeportivas:checked ~ figure img.remerasDeportivas { width: 250px;}
-.inputFiltrado#remerasDeportivas:checked ~ figure img:not(.remerasDeportivas) { opacity: 0; position: absolute; top: 0; left: 50%;}
-   
-.inputFiltrado#todos:checked ~ figure img { width: 160px; display: inline-block;  margin: 15px 0 0 0; border-radius: 3px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.45); }  
-   
-.inputFiltrado[type=radio] { display: none; }
-   
-   .labelFiltrado {
-       position: relative;
-       padding:.5rem;
-       border-radius: 3px;
-       box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-       border: 1px solid rgba(0,0,0,.1);
-       display: inline-block;
-       margin: 15px 1px 0 0;
-       background: #eee;
-    }
+.inputFiltrado#cuellitos:checked~figure img.cuellitos {
+    width: 250px;
+}
 
-    .labelFiltrado:hover { cursor: pointer; background: #e5e5e5; color: tomato; transition: .4s;}
+.inputFiltrado#cuellitos:checked~figure img:not(.cuellitos) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
 
-    .inputFiltrado#x + .labelFiltrado {padding:5px; border-radius: 50%; background: #eee; color: #999; font-size: 1.5rem; box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset; }
+.inputFiltrado#gorras:checked~figure img.gorras {
+    width: 250px;
+}
 
-    .inputFiltrado#x + .labelFiltrado:hover, .inputFiltrado#x:checked + .labelFiltrado {background: tomato; color: #fff; transition: .4s;}
+.inputFiltrado#gorras:checked~figure img:not(.gorras) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
 
-    .inputFiltrado:checked + .labelFiltrado { background: rgba(0, 0, 0, 0.25); text-shadow: 0 0 1px #222222; color: #fff; box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45); border-color: #fff;}
+.inputFiltrado#remerasPersonalizadas:checked~figure img.remerasPersonalizadas {
+    width: 250px;
+}
 
-  //*
+.inputFiltrado#remerasPersonalizadas:checked~figure img:not(.remerasPersonalizadas) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.inputFiltrado#remerasDeportivas:checked~figure img.remerasDeportivas {
+    width: 250px;
+}
+
+.inputFiltrado#remerasDeportivas:checked~figure img:not(.remerasDeportivas) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.inputFiltrado#todos:checked~figure img {
+    width: 160px;
+    display: inline-block;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 15px 15px -12px rgba(0, 0, 0, 0.45);
+}
+
+.inputFiltrado[type=radio] {
+    display: none;
+}
+
+.labelFiltrado {
+    position: relative;
+    padding: .5rem;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin: 15px 1px 0 0;
+    background: #eee;
+}
+
+.labelFiltrado:hover {
+    cursor: pointer;
+    background: #e5e5e5;
+    color: tomato;
+    transition: .4s;
+}
+
+.inputFiltrado#x+.labelFiltrado {
+    padding: 5px;
+    border-radius: 50%;
+    background: #eee;
+    color: #999;
+    font-size: 1.5rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
+}
+
+.inputFiltrado#x+.labelFiltrado:hover,
+.inputFiltrado#x:checked+.labelFiltrado {
+    background: tomato;
+    color: #fff;
+    transition: .4s;
+}
+
+.inputFiltrado:checked+.labelFiltrado {
+    background: rgba(0, 0, 0, 0.25);
+    text-shadow: 0 0 1px #222222;
+    color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45);
+    border-color: #fff;
+}
+
+//*
 
 .ultimaParte {
     .c6 {
@@ -355,75 +443,75 @@ footer {
 
 
 @media (min-width: 480px) {
-.productosTodos {
-    .portada6 {
-    height: 80vh;
+    .productosTodos {
+        .portada6 {
+            height: 80vh;
+        }
     }
-}
 
-.todosNuestrosProductos {
-    .carousel-Nuestros-Productos {
-        .carousel {
-            img {
-    height: 80vh;
+    .todosNuestrosProductos {
+        .carousel-Nuestros-Productos {
+            .carousel {
+                img {
+                    height: 80vh;
+                }
+            }
+        }
     }
-}
+
+    .fotosProductos {
+        .calzas1 {
+            .calzas {
+                width: 40%;
+            }
+        }
+
+        .tops2 {
+            .tops {
+                width: 40%;
+            }
+        }
+
+        .conjuntos3 {
+            .conjuntos {
+                width: 40%;
+            }
+        }
+
+        .cuellitos4 {
+            .cuellitos {
+                width: 40%;
+            }
+        }
+
+        .gorras5 {
+            .gorras {
+                width: 40%;
+            }
+        }
+
+        .remerasPersonalizadas6 {
+            .remerasPersonalizadas {
+                width: 40%;
+            }
+        }
+
+        .remerasDeportivas7 {
+            .remerasDeportivas {
+                width: 40%;
+            }
+        }
     }
-}
 
-.fotosProductos {
-    .calzas1 {
-        .calzas {
-    width: 40%;
+    .buttonComprar7 {
+        margin: 0% 0% 10% 28%;
+        padding: 14px 0px;
+        width: 44%;
     }
-}
 
-.tops2 {
-    .tops {
-        width: 40%;
-}
-}
-
-.conjuntos3 {
-    .conjuntos {
-        width: 40%;
-}
-}
-
-.cuellitos4 {
-     .cuellitos {
-        width: 40%;
-}
-}
-
-.gorras5 {
-    .gorras {
-        width: 40%;
+    footer {
+        margin: 0% 0% 0% 0%;
     }
-}
-
-.remerasPersonalizadas6 {
-    .remerasPersonalizadas {
-        width: 40%;
-}
-}
-
-.remerasDeportivas7 {
-    .remerasDeportivas {
-        width: 40%;
-}
-}
-}
-
-.buttonComprar7 {
-    margin: 0% 0% 10% 28%;
-    padding: 14px 0px;
-    width: 44%;
-}
-
-footer {
-    margin: 0% 0% 0% 0%;
-}
 
 
 }
@@ -431,356 +519,377 @@ footer {
 @media (min-width: 768px) {
     .logoTodos {
         .logoCompleto6 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
+
     .intro {
         .title6-A {
-        font-size: 1.8em;
-    }   
-    .title6-B {
-        font-size: 1.7em;
-        margin: 4% 28% 0% 29%;
+            font-size: 1.8em;
+        }
+
+        .title6-B {
+            font-size: 1.7em;
+            margin: 4% 28% 0% 29%;
+        }
     }
-}
-    
+
     .productosTodos {
         .portada6 {
-        height: 68vh;
-        width: 45%;        
-    margin: 1% 28% 7% 28%;
+            height: 68vh;
+            width: 45%;
+            margin: 1% 28% 7% 28%;
+        }
+
+        h3 {
+            font-size: 1.7em;
+            margin: 2% 0%;
+        }
+
+        .todosNuestrosProductos {
+            .carousel-Nuestros-Productos {
+                .carousel {
+                    img {
+                        height: 90vh;
+                        padding: 1px 127px;
+                    }
+                }
+            }
+        }
+
+        .fotosProductos {
+            .calzas1 {
+                h3 {
+                    font-size: 2em;
+                    margin: 10% -7% -4% 0%;
+                }
+
+                .calzas {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+
+            .tops2 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .tops {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+
+            .conjuntos3 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .conjuntos {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+            .cuellitos4 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .cuellitos {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+            .gorras5 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .gorras {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+            .remerasPersonalizadas6 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .remerasPersonalizadas {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+            .remerasDeportivas7 {
+                h3 {
+                    font-size: 2em;
+                    margin: 4% -7% -4% 0%;
+                }
+
+                .remerasDeportivas {
+                    height: 52vh;
+                    width: 40%;
+                    justify-content: space-evenly;
+                    margin: 8% 4%;
+                }
+            }
+
+        }
+
+
     }
+
     h3 {
         font-size: 1.7em;
-        margin: 2% 0%;
+        margin: 2% 18% 2% 19%;
     }
 
-    .todosNuestrosProductos {
-        .carousel-Nuestros-Productos {
-            .carousel {
-                img {
-        height: 90vh;
-        padding: 1px 127px;
-    }
-}
-}
-}
-
-.fotosProductos {
-    .calzas1 {
-        h3 {
-    font-size: 2em;
-    margin: 10% -7% -4% 0%;
-}
-.calzas {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
+    .carousel-Nuestros-Productos {
+        .carousel {
+            img {
+                height: 100vh;
+            }
+        }
     }
 
-
-    .tops2 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.tops {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
+    .c6 {
+        font-size: 1.6em;
     }
 
-
-    .conjuntos3 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.conjuntos {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
+    .compraTodos {
+        .compraTodos6 {
+            font-size: 1.5em;
+        }
     }
 
-    .cuellitos4 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.cuellitos {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
+    .buttonComprar7 {
+        font-size: 1.6em;
     }
-
-    .gorras5 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.gorras {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
-    }
-
-    .remerasPersonalizadas6 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.remerasPersonalizadas {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
-    }
-
-    .remerasDeportivas7 {
-        h3 {
-    font-size: 2em;
-    margin: 4% -7% -4% 0%;
-}
-.remerasDeportivas {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 8% 4%;
-}
-    }
-
-}
-
-
-}
-
-    h3 {
-    font-size: 1.7em;
-    margin: 2% 18% 2% 19%;
-    }
-
-.carousel-Nuestros-Productos {
-.carousel {
-    img {
-    height: 100vh;
-}
-}
-}
-    
-.c6 {
-    font-size: 1.6em;
-}
-
-.compraTodos {
-    .compraTodos6 {
-    font-size: 1.5em;
-}
-}
-
-.buttonComprar7 {
-    font-size: 1.6em;
-}
 
     .btn-whatsapp6 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart7 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons6 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons6 {
                 font-size: 1.7em;
             }
-    }
-    
-    .logoOnky6 {
-        .copyright6 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
+        }
+
+        .logoOnky6 {
+            .copyright6 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
 
-    @media (min-width: 1024px) {
-        .logoTodos {
-            .logoCompleto6 {
+
+}
+
+@media (min-width: 1024px) {
+    .logoTodos {
+        .logoCompleto6 {
             margin: 12% 4% 2% 29%;
         }
     }
 
     .productosTodos {
- .portada6 {
+        .portada6 {
             height: 68vh;
             width: 33%;
             margin: 1% 28% 7% 34%;
         }
-    h3 {
-        margin: 1% 18% -3% 19%;
-    }
-    .todosNuestrosProductos {
-    .carousel-Nuestros-Productos {
-        .carousel {
-        img {
-            padding: 60px 346px;
-    }
+
+        h3 {
+            margin: 1% 18% -3% 19%;
+        }
+
+        .todosNuestrosProductos {
+            .carousel-Nuestros-Productos {
+                .carousel {
+                    img {
+                        padding: 60px 346px;
+                    }
+                }
+            }
         }
     }
-    }
-}
 
-#contenedorFiltrado {
-    margin: 1rem 15rem;
-}
-
-.compraTodos {
-    .compraTodos6 {
-        margin: 5% 1%;
+    #contenedorFiltrado {
+        margin: 1rem 15rem;
     }
-}
+
+    .compraTodos {
+        .compraTodos6 {
+            margin: 5% 1%;
+        }
+    }
 
     footer {
         .famousIcons6 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky6 {
             margin: -15% 1% -10% 1%;
         }
-        }
+    }
 
 }
 
-@media (min-width: 1440px) {       
+@media (min-width: 1440px) {
     .intro {
-    .title6-A {
-    font-size: 3.4em;
-}
-.title6-B {
-    font-size: 3.5em;
-}
+        .title6-A {
+            font-size: 3.4em;
+        }
+
+        .title6-B {
+            font-size: 3.5em;
+        }
     }
-  
-.productosTodos {
-   h3 {
-    font-size: 3.1em;
-    margin-bottom: 0%;
+
+    .productosTodos {
+        h3 {
+            font-size: 3.1em;
+            margin-bottom: 0%;
+        }
+
+        .portada6 {
+            margin: 3% 28% 7% 34%;
+        }
     }
-    .portada6 {
-        margin: 3% 28% 7% 34%;
+
+    #contenedorFiltrado {
+        margin: 1rem 17rem;
+        padding: 36px -3px;
+
+        label.labelFiltrado {
+            font-size: 1.9em;
+        }
     }
-}
 
-#contenedorFiltrado {
-    margin: 1rem 17rem;
-    padding: 36px -3px;
-    label.labelFiltrado {
-        font-size: 1.9em;
+    .inputFiltrado#todos:checked~figure img {
+        width: 355px;
     }
-}
 
-.inputFiltrado#todos:checked ~ figure img {
-    width: 355px;
-}
-
-.ultimaParte {
-    .c6 {
-    font-size: 3em;
-    margin: 12% 10% -1% 11%;
-}
-.compraTodos {
-    .compraTodos6 {
-        font-size: 2.8em;
-        margin: 4% 0%;
-    }
-}
-}
-
-.buttonComprar7 {
-    font-size: 3em;
-    margin: 3% 27%;
-}
-
-.btn-whatsapp6 {
-    right: 26px;
-    width: 79px;
-    height: 140px;
-    bottom: 241px;
-}
-
-.cart7 {
-    height: 124px;
-    right: 25px;
-    width: 91px;
-    bottom: 410px;
-    a {
-    img {
-        width: 100%;
-    height: 11vh;
-    }
-}
-}
-
-footer {
-    margin: 7% 0% 0% 0%;
-    .famousIcons6 {
-        h2 {
+    .ultimaParte {
+        .c6 {
             font-size: 3em;
-            }
-        .icons6 {
-        font-size: 3em;
+            margin: 12% 10% -1% 11%;
         }
-    }
-    .logoOnky6 {
-        margin: 3% 1% -19% 1%;
-        .copyright6 {
-        font-size: 2em;
+
+        .compraTodos {
+            .compraTodos6 {
+                font-size: 2.8em;
+                margin: 4% 0%;
+            }
         }
     }
 
-    .top {
-        height: 123px;
-        right: 24px;
-        width: 91px;
-        bottom: 139px;
+    .buttonComprar7 {
+        font-size: 3em;
+        margin: 3% 27%;
     }
-}
+
+    .btn-whatsapp6 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart7 {
+        height: 124px;
+        right: 25px;
+        width: 91px;
+        bottom: 410px;
+
+        a {
+            img {
+                width: 100%;
+                height: 11vh;
+            }
+        }
+    }
+
+    footer {
+        margin: 7% 0% 0% 0%;
+
+        .famousIcons6 {
+            h2 {
+                font-size: 3em;
+            }
+
+            .icons6 {
+                font-size: 3em;
+            }
+        }
+
+        .logoOnky6 {
+            margin: 3% 1% -19% 1%;
+
+            .copyright6 {
+                font-size: 2em;
+            }
+        }
+
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
+    }
 
 
 }

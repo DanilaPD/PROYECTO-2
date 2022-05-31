@@ -6,28 +6,28 @@ const email = document.getElementById("email");
 const password = document.getElementById("pass");
 
 formIS.addEventListener("submit", (e) => {
-    e.preventDefault();
-    validate();
-  });
+  e.preventDefault();
+  validate();
+});
 
-  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
+const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
 
-  const passRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+const passRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
 
-  const validate = () => {
-    const mail = email.value.trim();
-    const pass = password.value.trim();
+const validate = () => {
+  const mail = email.value.trim();
+  const pass = password.value.trim();
 
-    if (mail === "") {
-        let errorMessage = "Esta casilla no puede estar vacía";
-        inputError(email, errorMessage);
-      } else if (!emailRegex.test(mail)) {
-        let errorMessage = "El email no es válido";
-        inputError(email, errorMessage);
-      } else {
-        inputSuccess(email);
-        window.location.href = "./12. bienvenido.html";
-      }
+  if (mail === "") {
+    let errorMessage = "Esta casilla no puede estar vacía";
+    inputError(email, errorMessage);
+  } else if (!emailRegex.test(mail)) {
+    let errorMessage = "El email no es válido";
+    inputError(email, errorMessage);
+  } else {
+    inputSuccess(email);
+    window.location.href = "./12. bienvenido.html";
+  }
 
   if (pass === "") {
     let errorMessage = "Esta casilla no puede estar vacía";

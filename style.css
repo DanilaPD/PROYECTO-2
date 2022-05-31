@@ -2940,7 +2940,8 @@ figure #filtro img {
           box-shadow: 0 0 2px rgba(0, 0, 0, 0.5), 0 5px 8px -4px rgba(0, 0, 0, 0.45) inset;
 }
 
-.inputFiltrado#x + .labelFiltrado:hover, .inputFiltrado#x:checked + .labelFiltrado {
+.inputFiltrado#x + .labelFiltrado:hover,
+.inputFiltrado#x:checked + .labelFiltrado {
   background: tomato;
   color: #fff;
   -webkit-transition: .4s;
@@ -6174,6 +6175,112 @@ footer .top {
   }
   footer .logoOnky14 {
     margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title14-A {
+    font-size: 3.4em;
+  }
+  .title14-B {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra div .subtitleCart1 {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra div .subtitleCart2 {
+    font-size: 3.5em;
+    margin-top: -3%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .cart14 {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .shirt {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra ul li {
+    font-size: 2em;
+  }
+  .metodoDeCompra ul li .add {
+    margin: 9% 1% 1% 46%;
+  }
+  .metodoDeCompra .subtitleCart3 {
+    font-size: 3.5em;
+  }
+  .metodoDeCompra .subtitleCart4 {
+    font-size: 3.5em;
+    margin-top: -3%;
+  }
+  .cart {
+    padding: 11px;
+    width: 91%;
+    height: 55vh;
+    margin: 8% -4%;
+  }
+  .yourProducts {
+    font-size: 2.1em;
+    margin: 6% 0%;
+  }
+  #clear {
+    margin: 2% 0% 8% 1%;
+    width: 100%;
+    padding: 22px 3px;
+    font-size: 2em;
+  }
+  a #inicio {
+    margin: 0% 0% 8% -9%;
+    padding: 23px 0px;
+    width: 100%;
+    font-size: 2em;
+  }
+  .pProducts {
+    font-size: 1.8em;
+  }
+  .listOfProducts {
+    font-size: 3.5em;
+  }
+  .imgProducts {
+    height: 32vh;
+  }
+  .nameOfTheProduct {
+    font-size: 2.5em;
+    margin-right: 10%;
+  }
+  .gracias {
+    font-size: 3.2em;
+  }
+  .btnWhatsapp {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  footer {
+    margin: 7% 0% 0% 0%;
+  }
+  footer .famousIcons14 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons14 .icons14 {
+    font-size: 3em;
+  }
+  footer .logoOnky14 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky14 .copyright14 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
   }
 }
 /*# sourceMappingURL=style.css.map */

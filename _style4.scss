@@ -429,79 +429,82 @@ footer {
 
 
 @media (min-width: 480px) {
-.contactUs3 {
-    height: 50vh;
-}
-
-.container-4 {
-    .contact {
-        h3 {
-    margin: -3% 21% 0% 11%;
+    .contactUs3 {
+        height: 50vh;
     }
 
-    .infoClient {
-        .form-control-4 {
-            .infoDelCliente {
-                margin: 1% 11%;
+    .container-4 {
+        .contact {
+            h3 {
+                margin: -3% 21% 0% 11%;
+            }
+
+            .infoClient {
+                .form-control-4 {
+                    .infoDelCliente {
+                        margin: 1% 11%;
+                    }
+                }
+            }
+
+            .typeDeConsulta {
+                h3 {
+                    margin: -6% 35% -11% 26%;
+                }
+
+                .tipoDeC {
+                    height: 9vh;
+                }
+            }
+
+            .mensaje {
+                margin: -4% 21% 11% 11%;
+                padding: 11px 17px;
+            }
+
+            .novedades {
+                h3 {
+                    margin: -6% 22% 6% 10%;
+                }
+
+                .answer {
+                    margin: -17% -14% 7% 20%;
+                }
+            }
+
+            .submit {
+                width: 32%;
+                margin: 3% 17% 3% 27%;
+                padding: 8px 0px;
             }
         }
     }
 
-    .typeDeConsulta {
-        h3 {
-            margin: -6% 35% -11% 26%;
-        }
-        .tipoDeC {
-            height: 9vh;
-        }
+    footer {
+        margin: 0% 0% 0% 0%;
     }
-
-    .mensaje {
-        margin: -4% 21% 11% 11%;
-        padding: 11px 17px;
-    }
-
-    .novedades {
-         h3 {
-        margin: -6% 22% 6% 10%;
-    }
-    .answer {
-        margin: -17% -14% 7% 20%;
-    }
-}
-
-.submit {
-    width: 32%;
-    margin: 3% 17% 3% 27%;
-    padding: 8px 0px;
-}
-}
-}
-
-footer {
-    margin: 0% 0% 0% 0%;
-}
 }
 
 @media (min-width: 768px) {
     .logoContactUs3 {
         .logoCompleto3 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title3-A {
+
+    .title3-A {
         font-size: 1.8em;
-    }   
+    }
+
     .title3-B {
         font-size: 1.7em;
         margin: 4% 28% 0% 29%;
     }
-    
+
     .contactUs3 {
         height: 90vh;
     }
-    
+
     .container-4 {
         .contact {
             h2 {
@@ -516,112 +519,117 @@ footer {
             .infoClient {
                 .form-control-4 {
                     .infoDelCliente {
-                font-size: 1.2em;
+                        font-size: 1.2em;
+                    }
+                }
             }
-        }
-        }
 
-    .typeDeConsulta {
-        h3 {
-            font-size: 1.4em;
-            margin: -4% 35% -11% 26%;
-        }
-        .form-control-4 {
-        .tipoDeC {
-        height: 10vh;
-        margin: 9% 0% -1% 17%;
-        select {
-         font-size: 1.2em;
-     }
-    }
-}
-}
+            .typeDeConsulta {
+                h3 {
+                    font-size: 1.4em;
+                    margin: -4% 35% -11% 26%;
+                }
 
-.mensaje {
-    margin: -2% 21% 11% 11%;
-   font-size: 1.4em;
-   .comentarioTextArea {
-    margin: 1% 0% 1% 9%;
-    width: 78%;
-    height: 46vh;
-}
-}
+                .form-control-4 {
+                    .tipoDeC {
+                        height: 10vh;
+                        margin: 9% 0% -1% 17%;
+
+                        select {
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+
+            .mensaje {
+                margin: -2% 21% 11% 11%;
+                font-size: 1.4em;
+
+                .comentarioTextArea {
+                    margin: 1% 0% 1% 9%;
+                    width: 78%;
+                    height: 46vh;
+                }
+            }
 
             .novedades {
-                 h3 {
+                h3 {
                     font-size: 1.5em;
                     margin: -4% 0% 3% -6%;
+                }
+
+                .answer {
+                    font-size: 1.3em;
+                    margin: -2% -22% 2% 26%;
+                }
             }
-            .answer {
-    font-size: 1.3em;
-    margin: -2% -22% 2% 26%;
-             }
-            }
-    
-            
+
+
             .submit {
                 font-size: 1.4em;
             }
-         
+
+        }
     }
-}
 
-.p3 {
-    font-size: 1.8em;
-}
+    .p3 {
+        font-size: 1.8em;
+    }
 
-.p3-b {
-    font-size: 1.8em;
-}
+    .p3-b {
+        font-size: 1.8em;
+    }
 
     .btn-whatsapp3 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart4 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons3 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons3 {
                 font-size: 1.7em;
             }
-    }
-    
-    .logoOnky3 {
-        .copyright3 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
+        }
+
+        .logoOnky3 {
+            .copyright3 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
 
+
+}
+
 @media (min-width: 1024px) {
-        .logoContactUs3 {
-            .logoCompleto3 {
+    .logoContactUs3 {
+        .logoCompleto3 {
             margin: 12% 4% 2% 29%;
         }
     }
@@ -634,56 +642,61 @@ footer {
     .container-4 {
         .contact {
             h2 {
-    font-size: 2em;
+                font-size: 2em;
                 margin: 4% -5%;
-    }
-    h3 {
-        margin: -3% 21% 5% 10%;
-    }
-    .infoClient {
-        .form-control-4 {
-            .infoDelCliente {
-                font-size: 1.4em;
-                margin: 3% 11%;
-                width: 68%;            
-        }
-    }
-    }
+            }
 
-    .typeDeConsulta {
-        h3 {
-            font-size: 1.6em;
-            margin: -2% 35% -11% 26%;
-        }
-}
+            h3 {
+                margin: -3% 21% 5% 10%;
+            }
 
-.mensaje {
-   font-size: 1.6em;
-   .comentarioTextArea {
-    height: 60vh;
-}
-}
+            .infoClient {
+                .form-control-4 {
+                    .infoDelCliente {
+                        font-size: 1.4em;
+                        margin: 3% 11%;
+                        width: 68%;
+                    }
+                }
+            }
+
+            .typeDeConsulta {
+                h3 {
+                    font-size: 1.6em;
+                    margin: -2% 35% -11% 26%;
+                }
+            }
+
+            .mensaje {
+                font-size: 1.6em;
+
+                .comentarioTextArea {
+                    height: 60vh;
+                }
+            }
 
             .novedades {
-                 h3 {
+                h3 {
                     margin: -3% 0% 3% -6%;
+                }
+
+                .answer {
+                    margin: -2% -22% 2% 29%;
+                }
             }
-            .answer {
-                margin: -2% -22% 2% 29%;
-             }
-            }
-    
-            
+
+
             .submit {
                 width: 21%;
                 margin: 3% 33%;
             }
-}
-}
+        }
+    }
 
     .p3 {
         margin: -4% 29% 1% 28%;
     }
+
     .p3-b {
         margin: 1% 20% 7% 20%;
     }
@@ -693,136 +706,146 @@ footer {
         .famousIcons3 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky3 {
             margin: -15% 1% -10% 1%;
         }
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .title3-A {
+        font-size: 3.4em;
+    }
+
+    .title3-B {
+        font-size: 3.5em;
+    }
+
+
+    .container-4 {
+        .contact {
+            h2 {
+                font-size: 3.5em;
+            }
+
+            h3 {
+                font-size: 3em;
+            }
+
+            .infoClient {
+                .form-control-4 {
+                    .infoDelCliente {
+                        font-size: 2em;
+                    }
+                }
+            }
+
+            .typeDeConsulta {
+                h3 {
+                    font-size: 2.5em;
+                }
+
+                select {
+                    padding: 19px 0px;
+                }
+            }
+
+            .mensaje {
+                font-size: 2.5em;
+
+                .comentarioTextArea {
+                    height: 60vh;
+                }
+            }
+
+            .novedades {
+                h3 {
+                    font-size: 2.5em;
+                    margin: -2% -5% 4% -5%;
+                }
+
+                .answer {
+                    font-size: 2.5em;
+                }
+            }
+
+            .submit {
+                font-size: 2.5em;
+                width: 26%;
+                margin: 5% 32%;
+            }
+
+        }
+    }
+
+
+    .infoClient {
+        .form-control-4 {
+            small {
+                font-size: 38px;
+            }
+        }
+    }
+
+    .p3 {
+        font-size: 3.5em;
+    }
+
+    .p3-b {
+        font-size: 3.5em;
+    }
+
+    .btn-whatsapp3 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart4 {
+        height: 124px;
+        right: 25px;
+        width: 91px;
+        bottom: 410px;
+
+        a {
+            img {
+                width: 100%;
+                height: 11vh;
+            }
+        }
+    }
+
+    footer {
+        margin: 3% 0% 0% 0%;
+
+        .famousIcons3 {
+            h2 {
+                font-size: 3em;
+            }
+
+            .icons3 {
+                font-size: 3em;
+            }
         }
 
-}
+        .logoOnky3 {
+            margin: 3% 1% -19% 1%;
 
-@media (min-width: 1440px) {        
-      .title3-A {
-      font-size: 3.4em;
-  }
-  .title3-B {
-      font-size: 3.5em;
-  }
-    
-  
-  .container-4 {
-       .contact {
-           h2 {
-      font-size: 3.5em;
-  }
-  h3 {
-      font-size: 3em;
-  }
-  
-  .infoClient {
-  .form-control-4 {
-  .infoDelCliente {
-     font-size: 2em;
-  }
-  }
-}
+            .copyright3 {
+                font-size: 2em;
+            }
+        }
 
-.typeDeConsulta {
-    h3 {
-        font-size: 2.5em;
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
     }
-    select {
-        padding: 19px 0px;
-    }
-}
 
-.mensaje {
-font-size: 2.5em;
-.comentarioTextArea {
-height: 60vh;
-}
-}
-  
-  .novedades {
-      h3 {
-        font-size: 2.5em;
-        margin: -2% -5% 4% -5%;
-  }
-  .answer {
-      font-size: 2.5em;
-  }
-  }
-  
-  .submit {
-    font-size: 2.5em;
-    width: 26%;
-    margin: 5% 32%;
-  }
-  
-  }
-  }
-  
-  
-  .infoClient {
-  .form-control-4 {
-  small {
-  font-size: 38px;
-  }
-  }
-  }    
-  
-  .p3 {
-      font-size: 3.5em;
-  }
 
-  .p3-b {
-    font-size: 3.5em;
 }
-  
-  .btn-whatsapp3 {
-      right: 26px;
-      width: 79px;
-      height: 140px;
-      bottom: 241px;
-  }
-  
-  .cart4 {
-      height: 124px;
-      right: 25px;
-      width: 91px;
-      bottom: 410px;
-      a {
-      img {
-          width: 100%;
-      height: 11vh;
-      }
-  }
-  }
-  
-  footer {
-      margin: 3% 0% 0% 0%;
-      .famousIcons3 {
-          h2 {
-              font-size: 3em;
-              }
-          .icons3 {
-          font-size: 3em;
-          }
-      }
-      .logoOnky3 {
-          margin: 3% 1% -19% 1%;
-          .copyright3 {
-          font-size: 2em;
-          }
-      }
-  
-      .top {
-          height: 123px;
-          right: 24px;
-          width: 91px;
-          bottom: 139px;
-      }
-  }
-  
-  
-  }

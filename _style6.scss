@@ -216,285 +216,298 @@ footer {
 @media (min-width: 480px) {
     .portadaCalzas {
         img {
-        height: 45vh;
+            height: 45vh;
+        }
     }
-}
 
-.productosCalzas {
-    img {
-    height: 60vh;
-    }
-}
-
-.carousel6 {
-    .carousel {
+    .productosCalzas {
         img {
-    height: 75vh;
+            height: 60vh;
+        }
     }
-}
 
-.carousel-indicators {
-    margin-bottom: 2rem;
-}
-}
+    .carousel6 {
+        .carousel {
+            img {
+                height: 75vh;
+            }
+        }
 
-.buttonComprar6 {
-    margin: 0% 0% 10% 28%;
-    padding: 14px 0px;
-    width: 44%;
-}
+        .carousel-indicators {
+            margin-bottom: 2rem;
+        }
+    }
 
-footer {
-    margin: 0% 0% 0% 0%;
-}
+    .buttonComprar6 {
+        margin: 0% 0% 10% 28%;
+        padding: 14px 0px;
+        width: 44%;
+    }
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
 
 }
 
 @media (min-width: 768px) {
     .logoCalzas {
         .logoCompleto5 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title5-A {
+
+    .title5-A {
         font-size: 1.8em;
-    }   
+    }
+
     .title5-B {
         font-size: 1.7em;
         margin: 4% 28% 0% 29%;
     }
-    
+
     .portadaCalzas {
         img {
-        height: 90vh;
+            height: 90vh;
+        }
     }
-}
 
-.productosCalzas {
-    h3 {
-    font-size: 1.7em;
-    margin: 2% 18% 2% 19%;
-}
-img {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 3% 4%;
-    &:last-child {
-        margin: 3% 29%;
+    .productosCalzas {
+        h3 {
+            font-size: 1.7em;
+            margin: 2% 18% 2% 19%;
+        }
+
+        img {
+            height: 52vh;
+            width: 40%;
+            justify-content: space-evenly;
+            margin: 3% 4%;
+
+            &:last-child {
+                margin: 3% 29%;
+            }
+        }
     }
-}
-}
 
-.carousel6 {
-    .c3 {
-    font-size: 1.6em;
-    margin: 8% 10% -1% 11%;
-}
-.carousel {
-    img {
-        height: 90vh;
-        padding: 1px 127px;
-        margin: 0% 0% 30% 0%;
-}
-}
-}
-    
-.c4 {
-    font-size: 1.6em;
-}
+    .carousel6 {
+        .c3 {
+            font-size: 1.6em;
+            margin: 8% 10% -1% 11%;
+        }
 
-.compraCalzas {
-    .compraCalzas1 {
-    font-size: 1.5em;
-}
-}
+        .carousel {
+            img {
+                height: 90vh;
+                padding: 1px 127px;
+                margin: 0% 0% 30% 0%;
+            }
+        }
+    }
 
-.buttonComprar6 {
-    font-size: 1.6em;
-}
+    .c4 {
+        font-size: 1.6em;
+    }
+
+    .compraCalzas {
+        .compraCalzas1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .buttonComprar6 {
+        font-size: 1.6em;
+    }
 
     .btn-whatsapp5 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart6 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons5 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons5 {
                 font-size: 1.7em;
             }
-    }
-    
-    .logoOnky5 {
-        .copyright5 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
+        }
+
+        .logoOnky5 {
+            .copyright5 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
 
+
+}
+
 @media (min-width: 1024px) {
-        .logoCalzas {
-            .logoCompleto5 {
+    .logoCalzas {
+        .logoCompleto5 {
             margin: 12% 4% 2% 29%;
         }
     }
 
     .portadaCalzas {
         img {
-        width: 57%;
-        margin: 1% 22%;
+            width: 57%;
+            margin: 1% 22%;
+        }
     }
-}
 
-.productosCalzas {
-    h3 {
-    margin: 12% 18% 2% 19%;
-}
-img {
-    height: 68vh;
-    width: 31%;
-    margin: 3% 9%;
-    &:last-child {
-        margin: 3% 34%;
+    .productosCalzas {
+        h3 {
+            margin: 12% 18% 2% 19%;
+        }
+
+        img {
+            height: 68vh;
+            width: 31%;
+            margin: 3% 9%;
+
+            &:last-child {
+                margin: 3% 34%;
+            }
+        }
     }
-}
-}
 
-.carousel6 {
-.carousel {
-    img {
-        padding: 1px 266px;
-}
-}
-}
-
-.compraCalzas {
-    .compraCalzas1 {
-        margin: 5% 1%;
+    .carousel6 {
+        .carousel {
+            img {
+                padding: 1px 266px;
+            }
+        }
     }
-}
+
+    .compraCalzas {
+        .compraCalzas1 {
+            margin: 5% 1%;
+        }
+    }
 
     footer {
         .famousIcons5 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky5 {
             margin: -15% 1% -10% 1%;
         }
-        }
+    }
 
 }
 
-@media (min-width: 1440px) {       
-  
+@media (min-width: 1440px) {
+
     .title5-A {
-    font-size: 3.4em;
-}
-.title5-B {
-    font-size: 3.5em;
-}
-  
-.productosCalzas {
-   h3 {
-    font-size: 3.1em;
+        font-size: 3.4em;
     }
-}
 
-.carousel6 {
-    .c3 {
-    font-size: 3em;
-    margin: 10% 10% 1% 11%;
-}
-}
-
-.c4 {
-    font-size: 3em;
-}
-
-.compraCalzas {
-    .compraCalzas1 {
-        font-size: 2.8em;
+    .title5-B {
+        font-size: 3.5em;
     }
-}
 
-.buttonComprar6 {
-    font-size: 3em;
-    margin: 3% 27%;
-}
-
-.btn-whatsapp5 {
-    right: 26px;
-    width: 79px;
-    height: 140px;
-    bottom: 241px;
-}
-
-.cart6 {
-    height: 124px;
-    right: 25px;
-    width: 91px;
-    bottom: 410px;
-    a {
-    img {
-        width: 100%;
-    height: 11vh;
+    .productosCalzas {
+        h3 {
+            font-size: 3.1em;
+        }
     }
-}
-}
 
-footer {
-    margin: 7% 0% 0% 0%;
-    .famousIcons5 {
-        h2 {
+    .carousel6 {
+        .c3 {
             font-size: 3em;
-            }
-        .icons5 {
-        font-size: 3em;
-        }
-    }
-    .logoOnky5 {
-        margin: 3% 1% -19% 1%;
-        .copyright5 {
-        font-size: 2em;
+            margin: 10% 10% 1% 11%;
         }
     }
 
-    .top {
-        height: 123px;
-        right: 24px;
-        width: 91px;
-        bottom: 139px;
+    .c4 {
+        font-size: 3em;
     }
-}
+
+    .compraCalzas {
+        .compraCalzas1 {
+            font-size: 2.8em;
+        }
+    }
+
+    .buttonComprar6 {
+        font-size: 3em;
+        margin: 3% 27%;
+    }
+
+    .btn-whatsapp5 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart6 {
+        height: 124px;
+        right: 25px;
+        width: 91px;
+        bottom: 410px;
+
+        a {
+            img {
+                width: 100%;
+                height: 11vh;
+            }
+        }
+    }
+
+    footer {
+        margin: 7% 0% 0% 0%;
+
+        .famousIcons5 {
+            h2 {
+                font-size: 3em;
+            }
+
+            .icons5 {
+                font-size: 3em;
+            }
+        }
+
+        .logoOnky5 {
+            margin: 3% 1% -19% 1%;
+
+            .copyright5 {
+                font-size: 2em;
+            }
+        }
+
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
+    }
 
 
 }

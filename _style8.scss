@@ -292,139 +292,144 @@ footer {
     .containerIS {
         .formIS {
             .info-I-S {
-        margin: -8% 8% 6% -2%;
-    }
-    h2 {
-        margin: 0% 31% 5% 20%;
-    }
-    .form-control-IS {
-        label {
-        margin: 1% 24%;
-    }
-}
-    .submit-I-S {
-        margin: 7% 18% 7% 28%;
-        padding: 10px 0px;
-    }
+                margin: -8% 8% 6% -2%;
+            }
 
-}
+            h2 {
+                margin: 0% 31% 5% 20%;
+            }
+
+            .form-control-IS {
+                label {
+                    margin: 1% 24%;
+                }
+            }
+
+            .submit-I-S {
+                margin: 7% 18% 7% 28%;
+                padding: 10px 0px;
+            }
+
+        }
     }
 
     .botonesI-S {
         button {
-        width: 40%;
-        margin: 2% 0% 6% 30%;
+            width: 40%;
+            margin: 2% 0% 6% 30%;
+        }
     }
-}
 
-footer {
-    margin: 0% 0% 0% 0%;
-}
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
 
 
 }
 
 @media (min-width: 768px) {
-.logoInicioDeSesion {
-    .logoCompleto7 {
-    margin: 18% 4% 2% 29%;
-}
-}
-
-.intro-I-S {
-    .title7-A {
-    font-size: 1.8em;
-}
-.title7-B {
-    font-size: 1.7em;
-    margin: 4% 28% 0% 29%;
-}
-}
-
-.contactUs7 {
-    height: 90vh;
-}
-
-.containerIS {
-    .formIS {
-        h2 {
-    font-size: 2.1em;
-    margin: 0% 31% 5% 23%;
-}
-
-.info-I-S {
-    font-size: 1.5em;
-}
-
-.form-control-IS {
-    label {
-    margin: 1% 26%;
-    font-size: 1.5em;
-}
-}
-
-.submit-I-S {
-    margin: 7% 18% 7% 32%;
-    padding: 16px 0px;
-    width: 26%;
-}
-
-}
-}
-
-.passwordP {
-    font-size: 1.5em;
-}
-
-.botonesI-S {
-    button {
-    width: 26%;
-    padding: 14px 0px;
-    margin: 2% 0% 5% 37%;
-}
-}
-
-.btn-whatsapp7 {
-    right: 8px;
-width: 37px;
-line-height: 80px;
-height: 155px;
-bottom: 26px;
-}
-
-.cart8 {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 169px;
-}
-
-footer {
-    .famousIcons7 {
-        h2 {
-    font-size: 1.7em;
-    margin: 0% 17% 1% 20%;
+    .logoInicioDeSesion {
+        .logoCompleto7 {
+            margin: 18% 4% 2% 29%;
         }
-        .icons7 {
+    }
+
+    .intro-I-S {
+        .title7-A {
+            font-size: 1.8em;
+        }
+
+        .title7-B {
             font-size: 1.7em;
+            margin: 4% 28% 0% 29%;
         }
-}
+    }
 
-.logoOnky7 {
-    .copyright7 {
-    font-size: 1.1em;
-    margin: 0% 2% 0% 3%;
-}
-}
+    .contactUs7 {
+        height: 90vh;
+    }
 
-.top {
-height: 48px;
-right: 8px;
-width: 37px;
-bottom: 57px;
+    .containerIS {
+        .formIS {
+            h2 {
+                font-size: 2.1em;
+                margin: 0% 31% 5% 23%;
+            }
 
-}
-}
+            .info-I-S {
+                font-size: 1.5em;
+            }
+
+            .form-control-IS {
+                label {
+                    margin: 1% 26%;
+                    font-size: 1.5em;
+                }
+            }
+
+            .submit-I-S {
+                margin: 7% 18% 7% 32%;
+                padding: 16px 0px;
+                width: 26%;
+            }
+
+        }
+    }
+
+    .passwordP {
+        font-size: 1.5em;
+    }
+
+    .botonesI-S {
+        button {
+            width: 26%;
+            padding: 14px 0px;
+            margin: 2% 0% 5% 37%;
+        }
+    }
+
+    .btn-whatsapp7 {
+        right: 8px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
+    }
+
+    .cart8 {
+        height: 48px;
+        right: 8px;
+        width: 37px;
+        bottom: 169px;
+    }
+
+    footer {
+        .famousIcons7 {
+            h2 {
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
+            }
+
+            .icons7 {
+                font-size: 1.7em;
+            }
+        }
+
+        .logoOnky7 {
+            .copyright7 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
+    }
 
 
 }
@@ -432,57 +437,60 @@ bottom: 57px;
 @media (min-width: 1024px) {
     .logoInicioDeSesion {
         .logoCompleto7 {
-        margin: 12% 4% 2% 29%;
+            margin: 12% 4% 2% 29%;
+        }
     }
-}
 
-.contactUs7 {
-    height: 90vh;
-    width: 60%;
-    margin: 1% 20%;
-}
-
-.containerIS {
-    .formIS {
-        h2 {
-    margin: 4% 31% 9% 20%;
-}
-.info-I-S {
-    margin: -8% 10% 1% -1%;
-}
-.form-control-IS {
-    label {
-    margin: 2% 30%;
-    font-size: 1.5em;
-}
-}
-.submit-I-S {
-    margin: 7% 18% 7% 31%;
-    font-size: 1.5em;
-}
+    .contactUs7 {
+        height: 90vh;
+        width: 60%;
+        margin: 1% 20%;
     }
-}
 
-.passwordP {
-    margin: -5% 17% 10% 16%;
-}
+    .containerIS {
+        .formIS {
+            h2 {
+                margin: 4% 31% 9% 20%;
+            }
 
-.botonesI-S {
-    button {
-    width: 23%;
-    font-size: 1.5em;
-    margin: 2% 0% 5% 38%;
-}
-}
+            .info-I-S {
+                margin: -8% 10% 1% -1%;
+            }
 
-footer {
-    .famousIcons7 {
-        margin: -9% 1% -11% 1%;
+            .form-control-IS {
+                label {
+                    margin: 2% 30%;
+                    font-size: 1.5em;
+                }
+            }
+
+            .submit-I-S {
+                margin: 7% 18% 7% 31%;
+                font-size: 1.5em;
+            }
+        }
     }
-    
-    .logoOnky7 {
-        margin: -15% 1% -10% 1%;
+
+    .passwordP {
+        margin: -5% 17% 10% 16%;
     }
+
+    .botonesI-S {
+        button {
+            width: 23%;
+            font-size: 1.5em;
+            margin: 2% 0% 5% 38%;
+        }
+    }
+
+    footer {
+        .famousIcons7 {
+            margin: -9% 1% -11% 1%;
+        }
+
+        .logoOnky7 {
+            margin: -15% 1% -10% 1%;
+        }
     }
 }
 
@@ -490,63 +498,65 @@ footer {
 
     .intro-I-S {
         .title7-A {
-        font-size: 3.4em;
+            font-size: 3.4em;
+        }
+
+        .title7-B {
+            font-size: 3.2em;
+            margin: 4% 28% 1% 29%;
+        }
     }
-    .title7-B {
-        font-size: 3.2em;
-        margin: 4% 28% 1% 29%;
+
+    .contactUs7 {
+        height: 70vh;
     }
-}
 
-.contactUs7 {
-    height: 70vh;
-}
+    .containerIS {
+        .formIS {
+            h2 {
+                font-size: 3.5em;
+            }
 
-.containerIS {
-    .formIS {
-        h2 {
-    font-size: 3.5em;
-}
-.info-I-S {
-    margin: -8% 10% 1% -1%;
-    font-size: 3em;
-}
+            .info-I-S {
+                margin: -8% 10% 1% -1%;
+                font-size: 3em;
+            }
 
-.form-control-IS {
-    label {
-    margin: 2% 24%;
-    font-size: 3em;
-}
+            .form-control-IS {
+                label {
+                    margin: 2% 24%;
+                    font-size: 3em;
+                }
 
 
-}
+            }
 
-.submit-I-S {
-    font-size: 3em;
-}
-}
-}
+            .submit-I-S {
+                font-size: 3em;
+            }
+        }
+    }
 
 
-.passwordP {
-    font-size: 3em;
-}
-
-.botonesI-S {
-    button {
+    .passwordP {
         font-size: 3em;
     }
-}
 
-.containerIS {
-    .formIS {
-small {
-    font-size: 38px;
-}
+    .botonesI-S {
+        button {
+            font-size: 3em;
+        }
     }
-}
 
-.btn-whatsapp7 {
+    .containerIS {
+        .formIS {
+            small {
+                font-size: 38px;
+            }
+        }
+    }
+
+    .btn-whatsapp7 {
         right: 26px;
         width: 79px;
         height: 140px;
@@ -558,31 +568,36 @@ small {
         right: 25px;
         width: 91px;
         bottom: 410px;
+
         a {
-        img {
-            width: 100%;
-        height: 11vh;
+            img {
+                width: 100%;
+                height: 11vh;
+            }
         }
-    }
     }
 
     footer {
         margin: 3% 0% 0% 0%;
+
         .famousIcons7 {
             h2 {
                 font-size: 3em;
-                }
+            }
+
             .icons7 {
-            font-size: 3em;
+                font-size: 3em;
             }
         }
+
         .logoOnky7 {
             margin: 3% 1% -19% 1%;
+
             .copyright7 {
-            font-size: 2em;
+                font-size: 2em;
             }
         }
-    
+
         .top {
             height: 123px;
             right: 24px;
@@ -590,6 +605,6 @@ small {
             bottom: 139px;
         }
     }
-    
+
 
 }

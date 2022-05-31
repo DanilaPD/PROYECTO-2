@@ -162,169 +162,178 @@ footer {
 @media (min-width: 768px) {
     .logoBienvenido {
         .logoCompleto12 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title12-A {
+
+    .title12-A {
         font-size: 1.8em;
-    }   
-    
+    }
+
     .bienvenidoImg {
         height: 65vh;
-    width: 45%;
-    margin: 4% 28% 7% 28%;
-}
-    
-        .bienvenidoForm {
-            .title12-B {
-                font-size: 1.9em;
-            }
-
-            .title12-C {
-                font-size: 1.9em;
-            }
-    
+        width: 45%;
+        margin: 4% 28% 7% 28%;
     }
-        
+
+    .bienvenidoForm {
+        .title12-B {
+            font-size: 1.9em;
+        }
+
+        .title12-C {
+            font-size: 1.9em;
+        }
+
+    }
+
     .btn-Whatsapp12 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart12 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons12 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons12 {
                 font-size: 1.7em;
             }
+        }
+
+        .logoOnky12 {
+            .copyright12 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
-    
-    .logoOnky12 {
-        .copyright12 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
-    }
+
+
+}
 
 @media (min-width: 1024px) {
     .logoBienvenido {
         .logoCompleto12 {
-        margin: 12% 4% 2% 29%;
+            margin: 12% 4% 2% 29%;
+        }
     }
-}
 
     .bienvenidoForm {
         .title12-B {
-        margin: 3% -5%;
-    }
-    .title12-C {
-        margin: -5% 0% 1% -6%;
-    }
-}
+            margin: 3% -5%;
+        }
 
-footer {
-    margin: -7% 0% 0% 0%;
+        .title12-C {
+            margin: -5% 0% 1% -6%;
+        }
+    }
+
+    footer {
+        margin: -7% 0% 0% 0%;
+
         .famousIcons12 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky12 {
             margin: -15% 1% -10% 1%;
         }
+    }
 }
+
+@media (min-width: 1440px) {
+
+
+    .title12-A {
+        font-size: 3.4em;
     }
 
-    @media (min-width: 1440px) {
-
-       
-            .title12-A {
-            font-size: 3.4em;
-        }
-
-        .bienvenidoForm {
-            .title12-B {
+    .bienvenidoForm {
+        .title12-B {
             font-size: 3.7em;
-            }
-            .title12-C {
-                font-size: 3.7em;
-                }
         }
-        
-  
 
-
-
-
-        .btn-Whatsapp12 {
-            right: 26px;
-            width: 79px;
-            height: 140px;
-            bottom: 241px;
+        .title12-C {
+            font-size: 3.7em;
         }
-    
-        .cart12 {
-            height: 124px;
-            right: 25px;
-            width: 91px;
-            bottom: 410px;
-            a {
+    }
+
+
+
+
+
+
+    .btn-Whatsapp12 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart12 {
+        height: 124px;
+        right: 25px;
+        width: 91px;
+        bottom: 410px;
+
+        a {
             img {
                 width: 100%;
-            height: 11vh;
+                height: 11vh;
             }
         }
-        }
-    
-        footer {
-            margin: 3% 0% 0% 0%;
-            .famousIcons12 {
-                h2 {
-                    font-size: 3em;
-                    }
-                .icons12 {
+    }
+
+    footer {
+        margin: 3% 0% 0% 0%;
+
+        .famousIcons12 {
+            h2 {
                 font-size: 3em;
-                }
             }
-            .logoOnky12 {
-                margin: 3% 1% -19% 1%;
-                .copyright12 {
-                font-size: 2em;
-                }
-            }
-        
-            .top {
-                height: 123px;
-                right: 24px;
-                width: 91px;
-                bottom: 139px;
+
+            .icons12 {
+                font-size: 3em;
             }
         }
+
+        .logoOnky12 {
+            margin: 3% 1% -19% 1%;
+
+            .copyright12 {
+                font-size: 2em;
+            }
+        }
+
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
+    }
 
 
 }

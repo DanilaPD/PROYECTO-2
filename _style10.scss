@@ -165,77 +165,78 @@ footer {
 @media (min-width: 768px) {
     .logoRespuesta {
         .logoCompleto10 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title10-A {
+
+    .title10-A {
         font-size: 1.8em;
-    }   
-    
+    }
+
     .respuestaImg {
         height: 46vh;
         width: 69%;
         margin: 5% 16%;
     }
-    
+
     .title10-B {
         font-size: 1.7em;
         margin: 4% 28% 0% 29%;
     }
 
-.p10 {
-    font-size: 1.8em;
-}
+    .p10 {
+        font-size: 1.8em;
+    }
 
     .btn-Whatsapp10 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart10 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons10 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons10 {
                 font-size: 1.7em;
             }
-    }
-    
-    .logoOnky10 {
-        .copyright10 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
+        }
+
+        .logoOnky10 {
+            .copyright10 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
 
+
+}
+
 @media (min-width: 1024px) {
-        .logoRespuesta {
-            .logoCompleto10 {
+    .logoRespuesta {
+        .logoCompleto10 {
             margin: 12% 4% 2% 29%;
         }
     }
@@ -249,71 +250,77 @@ footer {
         .famousIcons10 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky10 {
             margin: -15% 1% -10% 1%;
         }
-        }
+    }
 
 }
 
-@media (min-width: 1440px) {       
-  
+@media (min-width: 1440px) {
+
     .title10-A {
-    font-size: 3.4em;
-}
-.title10-B {
-    font-size: 3.5em;
-}
-  
-   .p10 {
-    font-size: 3.1em;
+        font-size: 3.4em;
     }
 
-.btn-Whatsapp10 {
-    right: 26px;
-    width: 79px;
-    height: 140px;
-    bottom: 241px;
-}
-
-.cart10 {
-    height: 124px;
-    right: 25px;
-    width: 91px;
-    bottom: 410px;
-    a {
-    img {
-        width: 100%;
-    height: 11vh;
-    }
-}
-}
-
-footer {
-    margin: 3% 0% 0% 0%;
-    .famousIcons10 {
-        h2 {
-            font-size: 3em;
-            }
-        .icons10 {
-        font-size: 3em;
-        }
-    }
-    .logoOnky10 {
-        margin: 3% 1% -19% 1%;
-        .copyright10 {
-        font-size: 2em;
-        }
+    .title10-B {
+        font-size: 3.5em;
     }
 
-    .top {
-        height: 123px;
-        right: 24px;
+    .p10 {
+        font-size: 3.1em;
+    }
+
+    .btn-Whatsapp10 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart10 {
+        height: 124px;
+        right: 25px;
         width: 91px;
-        bottom: 139px;
+        bottom: 410px;
+
+        a {
+            img {
+                width: 100%;
+                height: 11vh;
+            }
+        }
     }
-}
+
+    footer {
+        margin: 3% 0% 0% 0%;
+
+        .famousIcons10 {
+            h2 {
+                font-size: 3em;
+            }
+
+            .icons10 {
+                font-size: 3em;
+            }
+        }
+
+        .logoOnky10 {
+            margin: 3% 1% -19% 1%;
+
+            .copyright10 {
+                font-size: 2em;
+            }
+        }
+
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
+    }
 
 
 }

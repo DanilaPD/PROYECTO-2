@@ -213,274 +213,287 @@ footer {
 @media (min-width: 480px) {
     .productosTops {
         img {
-        height: 52vh;
+            height: 52vh;
+        }
     }
-}
 
-.carousel5 {
-    .carousel {
-        img {
-    height: 75vh;
+    .carousel5 {
+        .carousel {
+            img {
+                height: 75vh;
+            }
+        }
+
+        .carousel-indicators {
+            margin-bottom: 2rem;
+        }
     }
-}
 
-.carousel-indicators {
-    margin-bottom: 2rem;
-}
-}
+    .buttonComprar5 {
+        margin: 0% 0% 10% 28%;
+        padding: 14px 0px;
+        width: 44%;
+    }
 
-.buttonComprar5 {
-    margin: 0% 0% 10% 28%;
-    padding: 14px 0px;
-    width: 44%;
-}
-
-footer {
-    margin: 0% 0% 0% 0%;
-}
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
 
 }
 
 @media (min-width: 768px) {
     .logoTops {
         .logoCompleto4 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title4-A {
+
+    .title4-A {
         font-size: 1.8em;
-    }   
+    }
+
     .title4-B {
         font-size: 1.7em;
         margin: 4% 28% 0% 29%;
     }
-    
+
     .portadaTops {
         img {
-        height: 90vh;
+            height: 90vh;
+        }
     }
-}
 
-.productosTops {
-    h3 {
-    font-size: 1.7em;
-    margin: 2% 18% 2% 19%;
-}
-img {
-    height: 52vh;
-    width: 40%;
-    justify-content: space-evenly;
-    margin: 3% 4%;
-    &:last-child {
-        margin: 3% 29%;
+    .productosTops {
+        h3 {
+            font-size: 1.7em;
+            margin: 2% 18% 2% 19%;
+        }
+
+        img {
+            height: 52vh;
+            width: 40%;
+            justify-content: space-evenly;
+            margin: 3% 4%;
+
+            &:last-child {
+                margin: 3% 29%;
+            }
+        }
     }
-}
-}
 
-.carousel5 {
-    .c1 {
-    font-size: 1.6em;
-    margin: 8% 10% -1% 11%;
-}
-.carousel {
-    img {
-        height: 90vh;
-        padding: 1px 127px;
-    margin: 0% 0% 20% 0%;
-}
-}
-}
-    
-.c2 {
-    font-size: 1.7em;
-}
+    .carousel5 {
+        .c1 {
+            font-size: 1.6em;
+            margin: 8% 10% -1% 11%;
+        }
 
-.compraTops {
-    .compraTops1 {
-    font-size: 1.5em;
-}
-}
+        .carousel {
+            img {
+                height: 90vh;
+                padding: 1px 127px;
+                margin: 0% 0% 20% 0%;
+            }
+        }
+    }
 
-.buttonComprar5 {
-    font-size: 1.6em;
-}
+    .c2 {
+        font-size: 1.7em;
+    }
+
+    .compraTops {
+        .compraTops1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .buttonComprar5 {
+        font-size: 1.6em;
+    }
 
     .btn-whatsapp4 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart5 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons4 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons4 {
                 font-size: 1.7em;
             }
-    }
-    
-    .logoOnky4 {
-        .copyright4 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
+        }
+
+        .logoOnky4 {
+            .copyright4 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
 
+
+}
+
 @media (min-width: 1024px) {
-        .logoTops {
-            .logoCompleto4 {
+    .logoTops {
+        .logoCompleto4 {
             margin: 12% 4% 2% 29%;
         }
     }
 
     .portadaTops {
         img {
-        width: 57%;
-        margin: 1% 22%;
+            width: 57%;
+            margin: 1% 22%;
+        }
     }
-}
 
-.productosTops {
-    h3 {
-    margin: 12% 18% 2% 19%;
-}
-img {
-    height: 52vh;
-    width: 31%;
-    margin: 3% 9%;
-    &:last-child {
-        margin: 3% 34%;
+    .productosTops {
+        h3 {
+            margin: 12% 18% 2% 19%;
+        }
+
+        img {
+            height: 52vh;
+            width: 31%;
+            margin: 3% 9%;
+
+            &:last-child {
+                margin: 3% 34%;
+            }
+        }
     }
-}
-}
 
-.carousel5 {
-.carousel {
-    img {
-        padding: 1px 266px;
-}
-}
-}
+    .carousel5 {
+        .carousel {
+            img {
+                padding: 1px 266px;
+            }
+        }
+    }
 
 
     footer {
         .famousIcons4 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky4 {
             margin: -15% 1% -10% 1%;
         }
-        }
+    }
 
 }
 
-@media (min-width: 1440px) {       
-  
+@media (min-width: 1440px) {
+
     .title4-A {
-    font-size: 3.4em;
-}
-.title4-B {
-    font-size: 3.5em;
-}
-  
-.productosTops {
-   h3 {
-    font-size: 3.1em;
+        font-size: 3.4em;
     }
-}
 
-.carousel5 {
-    .c1 {
-    font-size: 3em;
-    margin: 10% 10% 1% 11%;
-}
-}
-
-.c2 {
-    font-size: 3em;
-}
-
-.compraTops {
-    .compraTops1 {
-        font-size: 2.8em;
+    .title4-B {
+        font-size: 3.5em;
     }
-}
 
-.buttonComprar5 {
-    font-size: 3em;
-    margin: 3% 27%;
-}
-
-.btn-whatsapp4 {
-    right: 26px;
-    width: 79px;
-    height: 140px;
-    bottom: 241px;
-}
-
-.cart5 {
-    height: 124px;
-    right: 25px;
-    width: 91px;
-    bottom: 410px;
-    a {
-    img {
-        width: 100%;
-    height: 11vh;
+    .productosTops {
+        h3 {
+            font-size: 3.1em;
+        }
     }
-}
-}
 
-footer {
-    margin: 7% 0% 0% 0%;
-    .famousIcons4 {
-        h2 {
+    .carousel5 {
+        .c1 {
             font-size: 3em;
-            }
-        .icons4 {
-        font-size: 3em;
-        }
-    }
-    .logoOnky4 {
-        margin: 3% 1% -19% 1%;
-        .copyright4 {
-        font-size: 2em;
+            margin: 10% 10% 1% 11%;
         }
     }
 
-    .top {
-        height: 123px;
-        right: 24px;
-        width: 91px;
-        bottom: 139px;
+    .c2 {
+        font-size: 3em;
     }
-}
+
+    .compraTops {
+        .compraTops1 {
+            font-size: 2.8em;
+        }
+    }
+
+    .buttonComprar5 {
+        font-size: 3em;
+        margin: 3% 27%;
+    }
+
+    .btn-whatsapp4 {
+        right: 26px;
+        width: 79px;
+        height: 140px;
+        bottom: 241px;
+    }
+
+    .cart5 {
+        height: 124px;
+        right: 25px;
+        width: 91px;
+        bottom: 410px;
+
+        a {
+            img {
+                width: 100%;
+                height: 11vh;
+            }
+        }
+    }
+
+    footer {
+        margin: 7% 0% 0% 0%;
+
+        .famousIcons4 {
+            h2 {
+                font-size: 3em;
+            }
+
+            .icons4 {
+                font-size: 3em;
+            }
+        }
+
+        .logoOnky4 {
+            margin: 3% 1% -19% 1%;
+
+            .copyright4 {
+                font-size: 2em;
+            }
+        }
+
+        .top {
+            height: 123px;
+            right: 24px;
+            width: 91px;
+            bottom: 139px;
+        }
+    }
 
 
 }

@@ -142,8 +142,8 @@ footer {
 
 @media (min-width: 480px) {
     .title13-A {
-    margin: 0% 24% 0% 25%;
-}
+        margin: 0% 24% 0% 25%;
+    }
 
     .respuestaPasswordImg {
         height: 50vh;
@@ -151,88 +151,89 @@ footer {
 
     .respuestaPasswordForm {
         .title13-B {
-        margin: 2% 11% 1% -2%;
+            margin: 2% 11% 1% -2%;
+        }
     }
-}
-    
-footer {
-    margin: 0% 0% 0% 0%;
-}
+
+    footer {
+        margin: 0% 0% 0% 0%;
+    }
 
 }
 
 @media (min-width: 768px) {
     .logoRespuestaPassword {
         .logoCompleto13 {
-        margin: 18% 4% 2% 29%;
+            margin: 18% 4% 2% 29%;
+        }
     }
-    }
-   
-        .title13-A {
+
+    .title13-A {
         font-size: 1.8em;
-    }   
-    
+    }
+
     .respuestaPasswordImg {
         height: 90vh;
     }
-    
-        .respuestaPasswordForm {
-            .title13-B {
-                font-size: 1.9em;
-            }
+
+    .respuestaPasswordForm {
+        .title13-B {
+            font-size: 1.9em;
+        }
     }
- 
+
     .btn-Whatsapp13 {
         right: 8px;
-    width: 37px;
-    line-height: 80px;
-    height: 155px;
-    bottom: 26px;
+        width: 37px;
+        line-height: 80px;
+        height: 155px;
+        bottom: 26px;
     }
-    
+
     .cart13 {
         height: 48px;
         right: 8px;
         width: 37px;
         bottom: 169px;
     }
-    
+
     footer {
         .famousIcons13 {
             h2 {
-        font-size: 1.7em;
-        margin: 0% 17% 1% 20%;
+                font-size: 1.7em;
+                margin: 0% 17% 1% 20%;
             }
+
             .icons13 {
                 font-size: 1.7em;
             }
+        }
+
+        .logoOnky13 {
+            .copyright13 {
+                font-size: 1.1em;
+                margin: 0% 2% 0% 3%;
+            }
+        }
+
+        .top {
+            height: 48px;
+            right: 8px;
+            width: 37px;
+            bottom: 57px;
+
+        }
     }
-    
-    .logoOnky13 {
-        .copyright13 {
-        font-size: 1.1em;
-        margin: 0% 2% 0% 3%;
-    }
-    }
-    
-    .top {
-    height: 48px;
-    right: 8px;
-    width: 37px;
-    bottom: 57px;
-    
-    }
-    }
-    
-    
-    }
+
+
+}
 
 @media (min-width: 1024px) {
     .logoRespuestaPassword {
         .logoCompleto13 {
-        margin: 12% 4% 2% 29%;
+            margin: 12% 4% 2% 29%;
+        }
     }
-}
 
     .respuestaPasswordImg {
         height: 80vh;
@@ -244,28 +245,28 @@ footer {
         .famousIcons13 {
             margin: -9% 1% -11% 1%;
         }
-        
+
         .logoOnky13 {
             margin: -15% 1% -10% 1%;
         }
-        }
-
     }
 
-@media (min-width: 1440px) {       
-        .title13-A {
+}
+
+@media (min-width: 1440px) {
+    .title13-A {
         font-size: 3.4em;
     }
 
     .respuestaPasswordImg {
         height: 65vh;
-    }    
+    }
 
     .respuestaPasswordForm {
         .title13-B {
-        font-size: 3.5em;
+            font-size: 3.5em;
+        }
     }
-}
 
 
     .btn-Whatsapp13 {
@@ -280,31 +281,36 @@ footer {
         right: 25px;
         width: 91px;
         bottom: 410px;
+
         a {
-        img {
-            width: 100%;
-        height: 11vh;
+            img {
+                width: 100%;
+                height: 11vh;
+            }
         }
-    }
     }
 
     footer {
         margin: -12% 0% 0% 0%;
+
         .famousIcons13 {
             h2 {
                 font-size: 3em;
-                }
+            }
+
             .icons13 {
-            font-size: 3em;
+                font-size: 3em;
             }
         }
+
         .logoOnky13 {
             margin: 3% 1% -19% 1%;
+
             .copyright13 {
-            font-size: 2em;
+                font-size: 2em;
             }
         }
-    
+
         .top {
             height: 123px;
             right: 24px;
