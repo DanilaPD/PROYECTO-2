@@ -597,3 +597,47 @@ footer {
     }
 
 }
+
+@media (min-width: 1440px) {       
+    .title14-A {
+    font-size: 3.4em;
+}
+.title14-B {
+    font-size: 3.5em;
+}
+  
+
+.btnWhatsapp {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+}
+
+footer {
+    margin: 7% 0% 0% 0%;
+    .famousIcons14 {
+        h2 {
+            font-size: 3em;
+            }
+        .icons14 {
+        font-size: 3em;
+        }
+    }
+    .logoOnky14 {
+        margin: 3% 1% -19% 1%;
+        .copyright14 {
+        font-size: 2em;
+        }
+    }
+
+    .top {
+        height: 123px;
+        right: 24px;
+        width: 91px;
+        bottom: 139px;
+    }
+}
+
+
+}

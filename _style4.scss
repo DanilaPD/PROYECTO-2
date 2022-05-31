@@ -705,7 +705,7 @@ footer {
       .title3-A {
       font-size: 3.4em;
   }
-  .title8-B {
+  .title3-B {
       font-size: 3.5em;
   }
     
@@ -716,7 +716,7 @@ footer {
       font-size: 3.5em;
   }
   h3 {
-      font-size: 2.4em;
+      font-size: 3em;
   }
   
   .infoClient {
@@ -726,21 +726,37 @@ footer {
   }
   }
 }
+
+.typeDeConsulta {
+    h3 {
+        font-size: 2.5em;
+    }
+    select {
+        padding: 19px 0px;
+    }
+}
+
+.mensaje {
+font-size: 2.5em;
+.comentarioTextArea {
+height: 60vh;
+}
+}
   
   .novedades {
       h3 {
-      font-size: 2.5em;
+        font-size: 2.5em;
+        margin: -2% -5% 4% -5%;
   }
   .answer {
-      font-size: 2.3em;
+      font-size: 2.5em;
   }
   }
   
   .submit {
-      padding: 13px 0px;
-      font-size: 2.3em;
-      width: 35%;
-      margin: 0% 5%;
+    font-size: 2.5em;
+    width: 26%;
+    margin: 5% 32%;
   }
   
   }

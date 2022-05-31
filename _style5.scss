@@ -399,3 +399,88 @@ img {
         }
 
 }
+
+@media (min-width: 1440px) {       
+  
+    .title4-A {
+    font-size: 3.4em;
+}
+.title4-B {
+    font-size: 3.5em;
+}
+  
+.productosTops {
+   h3 {
+    font-size: 3.1em;
+    }
+}
+
+.carousel5 {
+    .c1 {
+    font-size: 3em;
+    margin: 10% 10% 1% 11%;
+}
+}
+
+.c2 {
+    font-size: 3em;
+}
+
+.compraTops {
+    .compraTops1 {
+        font-size: 2.8em;
+    }
+}
+
+.buttonComprar5 {
+    font-size: 3em;
+    margin: 3% 27%;
+}
+
+.btn-whatsapp4 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+}
+
+.cart5 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+    a {
+    img {
+        width: 100%;
+    height: 11vh;
+    }
+}
+}
+
+footer {
+    margin: 7% 0% 0% 0%;
+    .famousIcons4 {
+        h2 {
+            font-size: 3em;
+            }
+        .icons4 {
+        font-size: 3em;
+        }
+    }
+    .logoOnky4 {
+        margin: 3% 1% -19% 1%;
+        .copyright4 {
+        font-size: 2em;
+        }
+    }
+
+    .top {
+        height: 123px;
+        right: 24px;
+        width: 91px;
+        bottom: 139px;
+    }
+}
+
+
+}
