@@ -410,6 +410,80 @@ footer .top {
   }
 }
 
+@media (min-width: 1440px) {
+  main .portada .portadaImg {
+    margin: 4% 0% 1% 0%;
+  }
+  main .portada .login {
+    padding: 307px 26px;
+  }
+  main .portada .login h3 {
+    font-size: 2.7em;
+  }
+  main .portada .login .botones button {
+    font-size: 2em;
+    padding: 14px 1px;
+    width: 62%;
+  }
+  main .infoDeLaEmpresa .slogan {
+    font-size: 3.5em;
+  }
+  main .infoDeLaEmpresa .title {
+    font-size: 3.3em;
+    margin: -4% 1% 8% 1%;
+  }
+  main .infoDeLaEmpresa p {
+    font-size: 2.3em;
+  }
+  main .infoDeLaEmpresa .cart1 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  main .infoDeLaEmpresa .cart1 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  main .infoDeLaEmpresa .btnWhatsapp {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  main .productosDestacados .subtitle {
+    font-size: 3.3em;
+  }
+  main .imagenDeInstagram .subtitle {
+    font-size: 3.3em;
+  }
+  main .imagenDeInstagram .insta {
+    margin: -7px 49px 75px 75px;
+    padding: 1px 146px;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons .subtitleSocialNetworks {
+    font-size: 3em;
+  }
+  footer .famousIcons .icons {
+    font-size: 3em;
+  }
+  footer .logoOnky {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky .copyright {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
 /* 2. Nuestra misión: */
 /* Reset: */
 * {
@@ -665,6 +739,59 @@ footer .top {
   }
 }
 
+@media (min-width: 1440px) {
+  .title1-A {
+    font-size: 3.4em;
+  }
+  .title1-B {
+    font-size: 3.5em;
+  }
+  .p1 p {
+    font-size: 2.8em;
+  }
+  main .ourMissionImg {
+    width: 38%;
+    margin: -11% 36% 12% 32%;
+  }
+  .btn-whatsapp1 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart2 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart2 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons1 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons1 .icons1 {
+    font-size: 3em;
+  }
+  footer .logoOnky1 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky1 .copyright1 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
 /* 3. Nuestros clientes: */
 /* Reset: */
 * {
@@ -911,6 +1038,55 @@ footer .top {
   }
   footer .logoOnky2 {
     margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title2-A {
+    font-size: 3.4em;
+  }
+  .title2-B {
+    font-size: 3.5em;
+  }
+  .p2 {
+    font-size: 3.1em;
+  }
+  .btn-whatsapp2 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart3 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart3 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons2 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons2 .icons2 {
+    font-size: 3em;
+  }
+  footer .logoOnky2 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky2 .copyright2 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
   }
 }
 
@@ -1536,6 +1712,82 @@ footer .top {
   }
   footer .logoOnky3 {
     margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title3-A {
+    font-size: 3.4em;
+  }
+  .title8-B {
+    font-size: 3.5em;
+  }
+  .container-4 .contact h2 {
+    font-size: 3.5em;
+  }
+  .container-4 .contact h3 {
+    font-size: 2.4em;
+  }
+  .container-4 .contact .infoClient .form-control-4 .infoDelCliente {
+    font-size: 2em;
+  }
+  .container-4 .contact .novedades h3 {
+    font-size: 2.5em;
+  }
+  .container-4 .contact .novedades .answer {
+    font-size: 2.3em;
+  }
+  .container-4 .contact .submit {
+    padding: 13px 0px;
+    font-size: 2.3em;
+    width: 35%;
+    margin: 0% 5%;
+  }
+  .infoClient .form-control-4 small {
+    font-size: 38px;
+  }
+  .p3 {
+    font-size: 3.5em;
+  }
+  .p3-b {
+    font-size: 3.5em;
+  }
+  .btn-whatsapp3 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart4 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart4 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons3 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons3 .icons3 {
+    font-size: 3em;
+  }
+  footer .logoOnky3 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky3 .copyright3 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
   }
 }
 
@@ -3361,6 +3613,79 @@ footer .top {
   }
 }
 
+@media (min-width: 1440px) {
+  .intro-I-S .title7-A {
+    font-size: 3.4em;
+  }
+  .intro-I-S .title7-B {
+    font-size: 3.2em;
+    margin: 4% 28% 1% 29%;
+  }
+  .contactUs7 {
+    height: 70vh;
+  }
+  .containerIS .formIS h2 {
+    font-size: 3.5em;
+  }
+  .containerIS .formIS .info-I-S {
+    margin: -8% 10% 1% -1%;
+    font-size: 3em;
+  }
+  .containerIS .formIS .form-control-IS label {
+    margin: 2% 24%;
+    font-size: 3em;
+  }
+  .containerIS .formIS .submit-I-S {
+    font-size: 3em;
+  }
+  .passwordP {
+    font-size: 3em;
+  }
+  .botonesI-S button {
+    font-size: 3em;
+  }
+  .containerIS .formIS small {
+    font-size: 38px;
+  }
+  .btn-whatsapp7 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart8 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart8 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons7 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons7 .icons7 {
+    font-size: 3em;
+  }
+  footer .logoOnky7 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky7 .copyright7 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
 /* 9. Registrate */
 /* Reset: */
 * {
@@ -3750,6 +4075,79 @@ footer .top {
   }
   footer .logoOnky8 {
     margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .introRegistrate .title8-A {
+    font-size: 3.4em;
+  }
+  .introRegistrate .title8-B {
+    font-size: 3.5em;
+  }
+  .container-R-8 .form-R-8 h2 {
+    font-size: 3.5em;
+  }
+  .container-R-8 .form-R-8 .info-R-8 {
+    font-size: 2.4em;
+  }
+  .container-R-8 .form-R-8 .form-control-R-8 .infoDelCliente8 {
+    font-size: 2em;
+  }
+  .container-R-8 .form-R-8 .novedades8 h3 {
+    font-size: 2.5em;
+  }
+  .container-R-8 .form-R-8 .novedades8 .answer8 {
+    font-size: 2.3em;
+  }
+  .container-R-8 .form-R-8 .submit8 {
+    padding: 13px 0px;
+    font-size: 2.3em;
+    width: 35%;
+    margin: 0% 5%;
+  }
+  .infoClient8 .form-control-R-8 small {
+    font-size: 38px;
+  }
+  .p8 {
+    font-size: 3.5em;
+  }
+  .btn-whatsapp8 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart9 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart9 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons8 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons8 .icons8 {
+    font-size: 3em;
+  }
+  footer .logoOnky8 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky8 .copyright8 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
   }
 }
 
@@ -4351,6 +4749,65 @@ footer .top {
   }
 }
 
+@media (min-width: 1440px) {
+  .title11-A {
+    font-size: 3.4em;
+  }
+  .containerPassword .passwordForm .title11-B {
+    font-size: 3.5em;
+  }
+  .containerPassword .passwordForm .p11 {
+    font-size: 2.4em;
+  }
+  .containerPassword .passwordForm .correoPassword .correoPassword11 {
+    margin: 4% 22%;
+    font-size: 2.5em;
+  }
+  .containerPassword .passwordForm .submit-Password {
+    font-size: 2.8em;
+  }
+  .containerPassword .passwordForm small {
+    font-size: 38px;
+  }
+  .btn-Whatsapp11 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart11 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart11 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons11 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons11 .icons11 {
+    font-size: 3em;
+  }
+  footer .logoOnky11 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky11 .copyright11 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
 /* 12. Bienvenido: */
 /* Reset: */
 * {
@@ -4597,6 +5054,55 @@ footer .top {
   }
 }
 
+@media (min-width: 1440px) {
+  .title12-A {
+    font-size: 3.4em;
+  }
+  .bienvenidoForm .title12-B {
+    font-size: 3.7em;
+  }
+  .bienvenidoForm .title12-C {
+    font-size: 3.7em;
+  }
+  .btn-Whatsapp12 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart12 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart12 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: 3% 0% 0% 0%;
+  }
+  footer .famousIcons12 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons12 .icons12 {
+    font-size: 3em;
+  }
+  footer .logoOnky12 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky12 .copyright12 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
+  }
+}
+
 /* 13. Respuesta para el form de "Password": */
 /* Reset: */
 * {
@@ -4827,6 +5333,55 @@ footer .top {
   }
   footer .logoOnky13 {
     margin: -15% 1% -10% 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title13-A {
+    font-size: 3.4em;
+  }
+  .respuestaPasswordImg {
+    height: 65vh;
+  }
+  .respuestaPasswordForm .title13-B {
+    font-size: 3.5em;
+  }
+  .btn-Whatsapp13 {
+    right: 26px;
+    width: 79px;
+    height: 140px;
+    bottom: 241px;
+  }
+  .cart13 {
+    height: 124px;
+    right: 25px;
+    width: 91px;
+    bottom: 410px;
+  }
+  .cart13 a img {
+    width: 100%;
+    height: 11vh;
+  }
+  footer {
+    margin: -12% 0% 0% 0%;
+  }
+  footer .famousIcons13 h2 {
+    font-size: 3em;
+  }
+  footer .famousIcons13 .icons13 {
+    font-size: 3em;
+  }
+  footer .logoOnky13 {
+    margin: 3% 1% -19% 1%;
+  }
+  footer .logoOnky13 .copyright13 {
+    font-size: 2em;
+  }
+  footer .top {
+    height: 123px;
+    right: 24px;
+    width: 91px;
+    bottom: 139px;
   }
 }
 
